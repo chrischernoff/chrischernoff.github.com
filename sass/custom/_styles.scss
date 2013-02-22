@@ -1,0 +1,117 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+
+header{
+	hgroup{
+		max-width: 960px;
+		margin:auto;
+		text-align:center;
+		h1 {
+			float:none;
+		}
+		nav{
+			margin: 5px auto auto auto;
+			text-align:center;
+			a{
+				display:inline-block;
+				padding:10px;
+				text-align:center;
+			}
+		}
+	}
+}
+
+body{
+	a{
+		text-decoration:none;
+		&:hover{
+			text-decoration:underline;
+		}
+	}
+}
+
+
+div#intro_content {
+	max-width: 960px; 
+	margin: auto;
+	color: white;
+	background: $intro-bg;
+	font-size: 0.9em;
+	border:none;
+	padding: 1.5em 0 1em 0;
+	p:first-of-type {
+		padding: 1em 0 0 0;
+	}
+	a {
+		@include link-colors(white, $hover: $link-color-hover, $focus: $link-color-hover, $visited: white, $active: $link-color-active);
+		text-decoration: none;
+		border-bottom: 1px solid $yellow;
+		@include transition(color .3s);
+	}
+	.avatar{
+		width:130px;
+		height:130px;
+		display:block;
+		margin: 0 auto 1.25em auto;
+	}
+}
+@media only screen and (min-width: 550px) {
+	header{
+		hgroup{
+			h1 {float:left;}
+			nav {float:right;}
+		}
+	}
+}
+@media only screen and (min-width: 550px) and (max-width: 639px) {
+	
+}
+@media only screen and (min-width: 640px) {
+	.avatar {
+		float:right;
+		margin: auto 2em;
+		padding: 0 0 0 1em;
+	}
+}
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+	#intro_content {
+		min-height: 130px;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+	.header_intro_container {
+		float:left;
+		max-width: 32em;
+	}
+	.avatar{
+		padding: 0 3em;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.header_intro_container {
+		float:left;
+		max-width: 37em;
+	}
+	.avatar{
+		padding: 0 4em;
+	}
+}
+
+
+
+
+
+div#intro {
+	background-color: $intro-bg;
+	border-bottom: 10px solid $orange;
+}
+
+body > footer{
+	margin-bottom: 0;
+}
+
+.footer-container {
+	max-width: 960px;
+	margin: auto;
+}
