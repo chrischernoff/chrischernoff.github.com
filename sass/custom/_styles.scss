@@ -31,6 +31,10 @@ body{
 	}
 }
 
+html{
+	background: $page-bg;
+}
+
 
 div#intro_content {
 	max-width: 960px; 
