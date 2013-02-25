@@ -116,7 +116,11 @@ div#intro_content {
 	}
 }
 
-
+.footnotes {
+	border-top: 1px solid $orange;
+	font-size: 0.7em;
+	padding: 2em 0 0 0;
+}
 
 div#intro {
 	background-color: $intro-bg;
