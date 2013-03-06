@@ -1,0 +1,14 @@
+---
+layout: page
+title: "Selected Work"
+---
+<div id="blog-archives" class="category">
+{% for page in site.pages %}
+    {% if page.category == "work" %}
+      <article>
+        <img class="work_thumb" src="{{ page.banner }}" />
+          <h2>{{ page.title }}</h2>
+      </article>
+    {% endif %}
+{% endfor %}
+</div>
