@@ -2,9 +2,8 @@
 layout: post
 title: The Eco-Friendly Data Center
 author: Chris
+banner: https://sphotos-a.xx.fbcdn.net/hphotos-ash4/419028_340468335998901_1514410915_n.jpg
 ---
-{% img https://sphotos-a.xx.fbcdn.net/hphotos-ash4/419028_340468335998901_1514410915_n.jpg Facebook's data center in Prineville, OR — opencompute.org %}
-
 We live in a world where performance is measured in milliseconds (nanoseconds even), gigahertz, megawatts, teraflops and other metrics both physical and virtual. 
 
 To say that technology is improving at a blistering pace would be a gross understatement. Every last decimal point counts, and cost is always of the utmost importance.
@@ -12,6 +11,8 @@ To say that technology is improving at a blistering pace would be a gross unders
 <!-- More -->
 
 Data centers are no exception to this trend. Racks and racks of top-shelf hardware run 24/7/365, fans screaming at 10,000 RPM and CPUs sizzling.
+
+> This is why I was refreshingly surprised to see Facebook, one of the premier tech companies make a move somewhat incongruent with today's trends.
 
 This is why I was refreshingly surprised to see Facebook, one of the premier tech companies make a move somewhat incongruent with today's trends. Facebook certainly puts plenty of time and effort into making their products perform well, have frictionless user experiences, and cost as little as possible (free). 
 
