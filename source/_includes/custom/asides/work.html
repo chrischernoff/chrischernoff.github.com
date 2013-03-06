@@ -1,0 +1,13 @@
+<section>
+  <h1>Other Selected Work</h1>
+  <ul id="recent_posts">
+    {% for aside_link in site.pages %}
+      {% if aside_link.category == "work" and aside_link.title != page.title %}
+        <li class="post">
+          <img class="work_thumb" src="{{ aside_link.banner }}" />
+          <a href="{{ root_url }}{{ aside_link.url }}">{{ aside_link.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
