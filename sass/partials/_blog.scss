@@ -4,8 +4,8 @@ article {
   header {
     position: relative;
     padding-top: 2em;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+    // padding-bottom: 1em;
+    margin-bottom: 0.5em;
     background: $img-border bottom left repeat-x;
     h1 {
       margin: 0;
@@ -23,7 +23,7 @@ article {
       }
     }
     @media only screen and (min-width: 768px) {
-      margin-bottom: 1.5em;
+      margin-bottom: 0.5em;
       padding-bottom: 1em;
       background: $img-border bottom left repeat-x;
     }
@@ -94,17 +94,17 @@ article {
   }
 
 }
-article + article {
-  .blog-index & {
-    background: $img-border top left repeat-x;
-  }
-}
+// article + article {
+//   .blog-index & {
+//     background: $img-border top left repeat-x;
+//   }
+// }
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
-  article { padding-top: 2em; }
+  // article { padding-top: 2em; }
   article header { background: none; padding-bottom: 0; }
   article h1 {
-    font-size: 2.2em;
+    font-size: 1.9em;
     a { color: inherit; &:hover { color: $link-color-hover; } }
   }
   a[rel=full-article] {
@@ -138,7 +138,7 @@ article + article {
   text-align: center;
   font-size: .95em;
   position: relative;
-  background: $img-border top left repeat-x;
+  // background: $img-border top left repeat-x;
   padding: {top: 1.5em; bottom: 1.5em;}
   a {
     text-decoration: none;

@@ -11,7 +11,8 @@ $gray: #808080;
 $light-gray: #f2f4f1;
 
 $link-color: $orange;
-$link-color-visited: adjust-color($link-color, $lightness: -30);
+$link-color-visited: $orange;
+// $link-color-visited: adjust-color($link-color, $lightness: -30);
 $link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25);
 // $link-color-active: adjust-color($link-color-hover, $lightness: -15);
 
