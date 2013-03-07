@@ -162,8 +162,10 @@ article {
 	.entry-content {
 		max-width: 410px;
 	}
+	article {
 		h1 {
-		padding-right: 4em
+			padding-right: 4em
+		}
 	}
 }
 // @media only screen and (min-width: 769px) {
