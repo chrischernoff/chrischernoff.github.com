@@ -7,6 +7,7 @@ $pad-medium: 35px !default;
 $pad-wide: 55px !default;
 
 // Sidebar widths used in media queries
+$sidebar-width-narrow: 180px !default;
 $sidebar-width-medium: 240px !default;
 $sidebar-pad-medium: 15px !default;
 $sidebar-pad-wide: 20px !default;
@@ -132,7 +133,7 @@ aside.sidebar {
 .toggle-sidebar { &, .no-sidebar & { display: none; }}
 
 body.sidebar-footer {
-  @media only screen and (min-width: 750px) {
+  @media only screen and (min-width: 769px) {
     aside.sidebar{ @include collapse-sidebar; }
   }
   #content { margin-right: 0px; }
@@ -142,13 +143,13 @@ body.sidebar-footer {
 @media only screen and (min-width: 550px) {
   body > header { font-size: $header-font-size; }
 }
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 769px) {
   aside.sidebar { @include collapse-sidebar; }
 }
 #main, #content, .sidebar {
   @extend .group;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   body { -webkit-text-size-adjust: auto; }
   body > header { font-size: $header-font-size * 1.1; }
   #main {
@@ -168,8 +169,8 @@ body.sidebar-footer {
     }
   }
   aside.sidebar {
-    width: $sidebar-width-medium - $sidebar-pad-medium*2;
-    padding: 0 $sidebar-pad-medium $sidebar-pad-medium;
+    width: $sidebar-width-narrow;
+    padding: 1.2em 0 0 2em;
     background: none;
     clear: none;
     float: left;
@@ -194,8 +195,8 @@ body.sidebar-footer {
     }
   }
   aside.sidebar {
-    width: $sidebar-width-wide - $sidebar-pad-wide*2;
-    padding: 1.2em $sidebar-pad-wide $sidebar-pad-wide;
+    width: $sidebar-width-medium;
+    padding: 1.2em 0 0 2em;
     .collapse-sidebar & {
       padding: { left: $pad-wide; right: $pad-wide; }
     }
@@ -203,7 +204,7 @@ body.sidebar-footer {
 }
 
 @if $indented-lists == false {
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     ul, ol { margin-left: 0; }
   }
 }

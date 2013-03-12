@@ -32,10 +32,8 @@
         {% endif %}
     </div>
   {% else %}
-    {% if post.banner %}
-        <div class="post_thumb">
-          <img src="{{ post.banner }}" />
-        </div>
+    {% if page.banner %}
+        <p><img src="{{ page.banner }}" /></p>
       {% endif %}
   <div class="entry-content">{{ content }}</div>
   {% endif %}

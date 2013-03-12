@@ -5,11 +5,12 @@
       {% if index %}
         <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
       {% else %}
-        <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+        <h1 class="entry-title">{% if site.titlecase %}{{ title }}{% else %}{{ title }}{% endif %}</h1>
       {% endif %}
       
     </header>
   {% endunless %}
+
   {% if index %}
     {% if post.banner %}
       <div class="post_thumb">
@@ -24,11 +25,15 @@
         {% endif %}
     </div>
   {% else %}
-    {% if post.banner %}
-        <div class="post_thumb">
-          <img src="{{ post.banner }}" />
-        </div>
+    {% if page.banner %}
+        <p><img src="{{ page.banner }}" /></p>
       {% endif %}
   <div class="entry-content">{{ content }}</div>
   {% endif %}
+   
+
 </div>
+
+
+
+

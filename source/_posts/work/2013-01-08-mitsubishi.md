@@ -3,15 +3,17 @@ layout: work_post
 title: "Mitsubishi"
 category: work
 order: 3
-banner: /uploads/work/mitsubishi/builder.jpg
+banner: /uploads/work/mitsubishi/mitsubishi_banner.jpg
 permalink: /work/mitsubishi
 ---
 
 Mitsubishi had a predicament. They built reliable well performing cars, but in recent years have been a sort of "also ran" in the Japanese import market. Sure you may have heard hubbub about something called an “Evo”, or stories of people like your uncle driving their old Monteros off 10 foot cliffs and they're still running. However for the most part, Mitsubishi generally isn't a brand that comes to mind when people are thinking about buying a car.
 
+<!--more-->
+
 Despite being Mitsubishi’s biggest selling tool, their website wasn’t helping their cause. I was brought on to try to fix this problem.
 
-<!--more-->
+
 ---
 
 Knowing that a company like Mitsubishi draws a wide variety of customers, I conducted user tests to get a handle on what some of the problems with their site were. In addition to my own observations and suspicions, my pool of test subjects uncovered many troubling aspects. I combined these findings with my own user tests and research of other car manufacturer websites to determine key areas in need of improvement.

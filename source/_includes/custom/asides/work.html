@@ -1,12 +1,16 @@
 <section>
-  <h1>Other Selected Work</h1>
-  <ul id="recent_posts">
-    {% for aside_link in site.pages %}
-      {% if aside_link.category == "work" and aside_link.title != page.title %}
-        <li class="post">
-          <img class="work_thumb" src="{{ aside_link.banner }}" />
-          <a href="{{ root_url }}{{ aside_link.url }}">{{ aside_link.title }}</a>
-        </li>
+  <h1>Selected Work</h1>
+  <ul id="selected_work">
+    {% for aside_link in site.posts %}
+      {% if aside_link.category == "work" %}
+        {% if aside_link.title == page.title %}
+          <li class="post current">
+            <a href="{{ root_url }}{{ aside_link.url }}"><img class="work_thumb" style="opacity:0.4;" src="{{ aside_link.banner }}" /></a>
+        {% else %}
+          <li class="post">
+          <a href="{{ root_url }}{{ aside_link.url }}"><img class="work_thumb" src="{{ aside_link.banner }}" /></a>
+        {% endif %}
+          </li>
       {% endif %}
     {% endfor %}
   </ul>

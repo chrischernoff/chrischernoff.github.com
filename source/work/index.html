@@ -1,14 +1,19 @@
 ---
-layout: page
+layout: default
 title: "Selected Work"
+sidebar: collapse
 ---
-<div id="blog-archives" class="category">
-{% for page in site.pages %}
-    {% if page.category == "work" %}
-      <article>
-        <img class="work_thumb" src="{{ page.banner }}" />
-          <h2>{{ page.title }}</h2>
-      </article>
-    {% endif %}
-{% endfor %}
+<div class="blog-index">
+  <header>
+    <h1>Selected Work</h1>
+  </header>
+  {% assign index = true %}
+  {% for post in site.posts | sort: post.order %}
+      {% if post.category == "work" %}
+        {% assign content = post.content %}
+          <article class="work">
+            {% include work_article.html %}
+          </article>
+      {% endif %}
+  {% endfor %}
 </div>

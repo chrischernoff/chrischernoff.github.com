@@ -9,11 +9,11 @@ permalink: /work/call-of-duty-elite
 
 Call of Duty has become the highest grossing entertainment franchise of all time. Toppling other games like Halo and feature films like Avatar and The Dark Knight, Call of Duty's annual release cadence and user base of nearly 30 million have allowed it to amass an unparalleled following in the game industry.
 
+<!--more-->
+
 In 2010 Call of Duty's publisher Activision started the Call of Duty: Elite project with the goal of allowing users to engage with the game's vast array of data, participate in competitions, and ultimately foster an online community for their mega-series.
 
 As one of the central UX designers on the project, I was tasked with creating an online service that would have to accommodate and balance a formidable set of challenges: mountains of data, a sophisticated and diverse user base, and massive scale.
-
-<!--more-->
 
 [{% img /uploads/work/call-of-duty-elite/boxes.jpg %}](/uploads/work/call-of-duty-elite/boxes.jpg)
 
