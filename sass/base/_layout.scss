@@ -67,7 +67,7 @@ body {
     }
   }
   // #content > article, #content > div > article, #content > div > section {
-  #main {
+  #main, hgroup {
     @extend .group;
     padding-left: $pad-min;
     padding-right: $pad-min;

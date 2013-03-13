@@ -1,23 +1,4 @@
-{% unless page.meta == false %}
-    <p class="meta">
-      {% include post/date.html %}{{ time }}
-      {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
-       | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
-      {% endif %}
-    </p>
-  {% endunless %}
 <div class="content_container">
-  {% unless page.no_header %}
-    <header>
-      
-      {% if index %}
-        <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
-      {% else %}
-        <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-      {% endif %}
-      
-    </header>
-  {% endunless %}
   {% if index %}
     {% if post.banner %}
       <div class="post_thumb">
@@ -25,16 +6,40 @@
       </div>
     {% endif %}
     <div class="entry-content">
+      <header>
+        {% unless page.meta == false %}
+          <p class="meta">
+            {% include post/date.html %}{{ time }}
+            {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
+             | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+            {% endif %}
+          </p>
+        {% endunless %}
+        <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+      </header>
       {{ content | excerpt }}
-      {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+        {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
         {% if excerpted == 'true' %}
           <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
         {% endif %}
     </div>
   {% else %}
     {% if page.banner %}
-        <p><img src="{{ page.banner }}" /></p>
-      {% endif %}
-  <div class="entry-content">{{ content }}</div>
+      <img src="{{ page.banner }}" />
+    {% endif %}
+    <div class="entry-content">
+      <header>
+        {% unless page.meta == false %}
+          <p class="meta">
+            {% include post/date.html %}{{ time }}
+            {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
+             | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+            {% endif %}
+          </p>
+        {% endunless %}
+        <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+      </header>
+      {{ content }}
+    </div>
   {% endif %}
 </div>

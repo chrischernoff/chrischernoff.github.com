@@ -4,11 +4,14 @@
 
 header{
 	hgroup{
-		max-width: 960px;
+		max-width: 980px;
 		margin:auto;
 		text-align:center;
 		h1 {
+			font-family: $logo-font-family;
+			font-weight: 600;
 			float:none;
+			padding-left: 20px;
 			a {
 				border: none;
 				&:hover{
@@ -20,6 +23,7 @@ header{
 		nav{
 			margin: 5px auto auto auto;
 			text-align:center;
+			padding-right: 20px;
 			li{
 				display:inline-block;
 				padding:10px;
@@ -47,14 +51,20 @@ header{
 }
 
 body{
+	header{
+		padding: 2em 0;
+	}
 	a{
 		text-decoration:none;
-		border-bottom: 1px dotted $orange;
 		&:hover {
 			color: black;
+			border-bottom: 1px dotted $orange;
 		}
 		&[rel=full-article] {
-			border: none;
+			// border: none;
+			// padding: none;
+			// margin: none;
+			font-size: 0.8em;
 		}
 	}
 	h1 > a, li.post > a {
@@ -79,9 +89,7 @@ body{
 	border: none;
 }
 
-html{
-	background: $page-bg;
-}
+
 
 hr{
 	margin-bottom: 1.5em;
@@ -91,24 +99,19 @@ hr{
 div#intro_content {
 	max-width: 960px; 
 	margin: auto;
-	color: white;
+	color: $dark-gray;
 	background: $intro-bg;
-	font-size: 0.9em;
+	font-size: 1.1em;
 	border:none;
 	padding: 1.5em 0 1em 0;
 	p:first-of-type {
 		padding: 1em 0 0 0;
 	}
-	a {
-		@include link-colors(white, $hover: $link-color-hover, $focus: $link-color-hover, $visited: white, $active: $link-color-active);
-		text-decoration: none;
-		border-bottom: 1px dotted $yellow;
-		@include transition(color .3s);
-	}
+	
 	.avatar{
 		width:130px;
 		height:130px;
-		display:block;
+		display:none;
 		margin: 0 auto 1.25em auto;
 	}
 }
@@ -117,17 +120,17 @@ div#intro_content {
 p.meta {
 	width: 160px;
 	color: $gray;
-	line-height: 3.8em;
+	line-height: 1.5em;
 	margin-bottom: 0;
 	font-size: 0.8em;
 }
 .content_container {
 	header { 
-		padding-top: 0;
+		padding-top: 1em;
 	}
 	.entry-content {
 		> p:last-of-type {
-			margin-bottom: 1em;
+			margin-bottom: 0.5em;
 		}
 	}
 }
@@ -135,12 +138,15 @@ p.meta {
 
 
 article {
-	background: none;
-	padding-bottom: 2em;
+	padding-top: 0;
+	background: white;
+	// padding-bottom: 2em;
+	width: 100%;
 }
 
 .blog-index article {
 	border-bottom: 1px dotted $gray;
+	margin-bottom: 2em;
 }
 
 article.hentry {
@@ -148,6 +154,12 @@ article.hentry {
 	header {
 		margin-bottom: 1.2em;
 		padding-bottom: 1.2em;
+	}
+	.entry-content {
+		max-width: 600px;
+		width: auto;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 }
 
@@ -198,9 +210,13 @@ article.work {
 }
 @media only screen and (max-width: 480px) {
 	article.hentry {
-		div.entry-content {
-			font-size: 1.1em;
+		.entry-content {
 			line-height: 2.0em;
+			padding-left: 1em;
+			padding-right: 1em;
+			h1 {
+				font-size: 1.3em;
+			}
 		}
 	}
 }
@@ -211,6 +227,9 @@ article.work {
 		div.entry-content {
 			font-size: 1.1em;
 			line-height: 2.0em;
+			h1 {
+				font-size: 1.8em;
+			}
 		}
 	}
 }
@@ -238,7 +257,7 @@ article.work {
 	}
 	.post_thumb {
 		float:right;
-		padding-top: 0.5em;
+		// padding-top: 0.5em;
 		img {
 			max-width: 160px;
 		}
@@ -258,31 +277,31 @@ article.work {
 	.post_thumb img {
 		float:right;
 	}
-	p.meta {
-		float:left;
-	}
-	.entry-content{
-		float: left;
-	}
-	.content_container {
-		float:left;
-		header {
-			float:left;
-		}
-		h1 {
-				padding-right: 4em;
-		}
-	}
+	// p.meta {
+	// 	float:left;
+	// }
+	// .entry-content{
+	// 	float: left;
+	// }
+	// .content_container {
+	// 	float:left;
+	// 	header {
+	// 		float:left;
+	// 	}
+	// 	h1 {
+	// 			padding-right: 4em;
+	// 	}
+	// }
 }
 @media only screen and (min-width: 640px) and (max-width: 768px) {
 	#intro_content {
 		min-height: 130px;
 	}
-	.blog-index {
-		.entry-content {
-			max-width: 410px;
-		}
-	}	
+	// .blog-index {
+	// 	.entry-content {
+	// 		max-width: 410px;
+	// 	}
+	// }	
 }
 
 @media only screen and (min-width: 769px) and (max-width: 991px) {
@@ -293,40 +312,47 @@ article.work {
 	.avatar{
 		padding: 0 1.25em 0 3em;
 	}
-	.blog-index {
-		.entry-content {
-			max-width: 500px;
-		}
-	}
+	// .blog-index {
+	// 	.entry-content {
+	// 		max-width: 500px;
+	// 	}
+	// }
 }
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 769px) {
 	.post_thumb img {
-		max-width: 260px;
+		max-width: 300px;
+	}
+	.entry-content {
+		width: 65%;
+		padding-left: 20px;
 	}
 	.avatar{
 		padding: 0 4.5em 0 8em;
 	}
+	#content .blog-index {
+  	padding: { top: 2em; bottom: 0; }
+  }
 }
 @media only screen and (min-width: 992px) {
 	.header_intro_container {
 		float:left;
 		max-width: 37em;
 	}
-	.blog-index {
-		.entry-content {
-			max-width: 580px;
-		}
-	}
+	// .blog-index {
+	// 	.entry-content {
+	// 		max-width: 580px;
+	// 	}
+	// }
 }
 @media only screen and (min-width: 1070px) {
-	.blog-index {
-		.entry-content {
-			max-width: 480px;
-		}
-	}
-	.content_container {
-		max-width: 800px;
-	}
+	// .blog-index {
+	// 	.entry-content {
+	// 		max-width: 480px;
+	// 	}
+	// }
+	// .content_container {
+	// 	max-width: 800px;
+	// }
 	article.work {
 		.content_container {
 			max-width: 960px;
@@ -335,9 +361,7 @@ article.work {
 			max-width: 580px;
 		}
 	}
-	#content .blog-index {
-  	padding: { top: 1em; bottom: 0; }
-  }
+	
 }
 
 #content > div {
@@ -377,8 +401,12 @@ img.thumb {
 }
 
 div#intro {
-	background-color: $intro-bg;
-	border-bottom: 10px solid $orange;
+	width: 100%;
+	padding: 0;
+	// opacity: 
+	background: image-url('mountains.jpg') top center no-repeat;
+	background-size: cover;
+	// border-bottom: 2px solid $orange;
 }
 
 body > footer{
