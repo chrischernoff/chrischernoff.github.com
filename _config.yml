@@ -53,7 +53,7 @@ default_asides:
 # and add an array with the asides you want to use.
 # blog_index_asides:
 post_asides: [asides/recent_posts.html, custom/asides/about.html]
-work_post_asides: [custom/asides/work.html]
+work_post_asides: [custom/asides/work.html, custom/asides/about.html]
 # page_asides: [custom/asides/work.html]
 
 # ----------------------- #

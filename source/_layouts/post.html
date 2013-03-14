@@ -16,10 +16,10 @@ single: true
       {% include post/sharing.html %}
     {% endunless %}
     <p class="meta">
-      {% if page.previous.url and page.previous.category != "work" %}
+      {% if page.previous.url and page.previous.category != "hidden" and page.previous.category != "work" %}
         <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><span>Previous</span><span>{{page.previous.title}}<span></a>
       {% endif %}
-      {% if page.next.url and page.previous.category != "work" %}
+      {% if page.next.url and page.next.category != "hidden" and page.next.category != "work" %}
         <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><span>Next</span><span>{{page.next.title}}<span></a>
       {% endif %}
     </p>

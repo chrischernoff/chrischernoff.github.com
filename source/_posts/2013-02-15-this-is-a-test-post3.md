@@ -2,7 +2,7 @@
 layout: post
 title: This is a test post3
 author: Chris
-banner: /uploads/2013/02/nest_wall.jpg
+banner: /uploads/2013/4.jpg
 ---
 I purchased a [Nest Learning Thermostat](http://nest.com/) over the holidays for my parents to try out. I figured that the heating and cooling of their house would be a situation ripe for optimizing. What says "Merry Christmas!" like "I just saved you $78.54 on your DWP bill." It all sounded good in theory.
 

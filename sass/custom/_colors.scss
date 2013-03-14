@@ -14,6 +14,10 @@ $light-gray: #f2f4f1;
 $dark-shadow: #b7b7b7;
 $light-shadow: #ebebeb;
 
+$default-text-shadow-color: rgba(black, 0.2);
+$default-text-shadow-blur: 3px;
+$default-text-shadow-v-offset: 1px;
+
 $link-color: $orange;
 $link-color-visited: $orange;
 // $link-color-visited: adjust-color($link-color, $lightness: -30);

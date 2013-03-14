@@ -7,7 +7,7 @@ intro: true
 <div class="blog-index">
   {% assign index = true %}
   {% for post in paginator.posts %}
-    {% if post.category != "work" %}
+    {% if post.category != "hidden" and post.category != "work" %}
       {% assign content = post.content %}
         <article>
           {% include article.html %}

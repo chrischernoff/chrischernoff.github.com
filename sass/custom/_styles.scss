@@ -112,6 +112,12 @@ aside.sidebar {
 		box-shadow: none;
 		border-bottom: none;
 	}
+	#social_icons {
+		img {
+			width: 25px;
+			margin-right: 1em;
+		}
+	}
 }
 
 hr{
@@ -120,6 +126,8 @@ hr{
 
 
 div#intro_content {
+	@include single-text-shadow;
+	text-align: center;
 	max-width: 960px; 
 	margin: auto;
 	color: $dark-gray;
@@ -132,12 +140,18 @@ div#intro_content {
 	p:first-of-type {
 		padding: 1em 0 0 0;
 	}
-	
-	.avatar{
-		width:130px;
-		height:130px;
-		display:none;
-		margin: 0 auto 1.25em auto;
+	#bio {
+		max-width:80%;
+		margin: auto;
+		
+	}
+	#social_icons {
+		margin-top:3em;
+		opacity: 0.4;
+		img {
+			width: 35px;
+			margin-left: 1.5em;
+		}
 	}
 }
 
@@ -150,10 +164,12 @@ p.meta {
 	font-size: 0.8em;
 }
 .content_container {
+	min-height: 190px;
 	header { 
 		padding-top: 1em;
 	}
 	.entry-content {
+		padding-bottom: 1em;
 		> p:last-of-type {
 			margin-bottom: 0.5em;
 		}
@@ -288,10 +304,9 @@ article.work {
 	#content .blog-index {
 		padding-top: 1.5em;
 	}
-	article > footer, .blog-index > footer {
+	article > footer {
 		p.meta {
-			margin-top: 2em;
-			overflow:hidden;
+			// margin-top: 1em;
 		}
 	}
 }
@@ -411,6 +426,9 @@ article.work {
 		margin: 0 0 0.5em 0;
 		padding-bottom: 0;
 	}
+	.content_container {
+
+	}
 }
 @media only screen and (max-width: 768px) {
 	#content {
@@ -495,7 +513,7 @@ div#intro {
 	width: 100%;
 	padding: 0;
 	// opacity: 
-	background: image-url('mountains.jpg') top center no-repeat;
+	background: image-url('mountains.png') top center no-repeat;
 	background-size: cover;
 	// border-bottom: 2px solid $orange;
 }
@@ -522,7 +540,6 @@ article > footer, .blog-index > footer {
 	margin: 0;
 	padding: 0;
 	p.meta {
-		border-top: 1px solid $light-gray;
 		padding-bottom: 0;
 		margin-bottom: 0;
 		a{
@@ -554,8 +571,13 @@ article > footer, .blog-index > footer {
 		
 	}
 }
-.blog-index > footer {
+
+article > footer {
 	p.meta {
-		border: 1px solid $light-shadow;
+		border-top: 1px solid $light-gray;
 	}
+}
+.blog-index > footer {
+	overflow: hidden;
+	border: 1px solid $light-shadow;
 }
