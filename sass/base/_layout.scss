@@ -1,17 +1,17 @@
 $max-width: 1200px !default;
 
 // Padding used for layout margins
-$pad-min: 18px !default;
+$pad-min: 10px !default;
 $pad-narrow: 25px !default;
 $pad-medium: 35px !default;
 $pad-wide: 55px !default;
 
 // Sidebar widths used in media queries
 $sidebar-width-narrow: 180px !default;
-$sidebar-width-medium: 240px !default;
+$sidebar-width-medium: 230px !default;
 $sidebar-pad-medium: 15px !default;
 $sidebar-pad-wide: 20px !default;
-$sidebar-width-wide: 300px !default;
+$sidebar-width-wide: 280px !default;
 
 $indented-lists: false !default;
 
@@ -53,11 +53,11 @@ body {
     @extend .group;
     padding-left: $pad-min;
     padding-right: $pad-min;
-    @media only screen and (min-width: 480px) {
+    @media only screen and (min-width: 481px) {
       padding-left: $pad-narrow;
       padding-right: $pad-narrow;
     }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 769px) {
       padding-left: $pad-medium;
       padding-right: $pad-medium;
     }
@@ -67,32 +67,32 @@ body {
     }
   }
   // #content > article, #content > div > article, #content > div > section {
-  #main, hgroup {
+  #main, hgroup, #intro_content {
     @extend .group;
     padding-left: $pad-min;
     padding-right: $pad-min;
-    @media only screen and (min-width: 480px) {
+    @media only screen and (min-width: 481px) {
       padding-left: $pad-narrow;
       padding-right: $pad-narrow;
     }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 769px) {
       padding-left: $pad-medium;
       padding-right: $pad-medium;
     }
     @media only screen and (min-width: 992px) {
-      padding-left: $pad-wide;
-      padding-right: $pad-wide;
+      padding-left: $pad-medium;
+      padding-right: $pad-medium;
     }
   }
   div.pagination {
     @extend .group;
     margin-left: $pad-min;
     margin-right: $pad-min;
-    @media only screen and (min-width: 480px) {
+    @media only screen and (min-width: 481px) {
       margin-left: $pad-narrow;
       margin-right: $pad-narrow;
     }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 769px) {
       margin-left: $pad-medium;
       margin-right: $pad-medium;
     }
@@ -196,7 +196,7 @@ body.sidebar-footer {
   }
   aside.sidebar {
     width: $sidebar-width-medium;
-    padding: 1.2em 0 0 2em;
+    padding: 1.2em 2em 0 2em;
     .collapse-sidebar & {
       padding: { left: $pad-wide; right: $pad-wide; }
     }
