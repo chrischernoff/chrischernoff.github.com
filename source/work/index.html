@@ -2,17 +2,18 @@
 layout: default
 title: "Selected Work"
 sidebar: collapse
+meta: false
 ---
 <div class="blog-index">
-  <header>
+  <header class="list">
     <h1>Selected Work</h1>
   </header>
   {% assign index = true %}
   {% for post in site.posts | sort: post.order %}
       {% if post.category == "work" %}
         {% assign content = post.content %}
-          <article class="work">
-            {% include work_article.html %}
+          <article>
+            {% include article.html %}
           </article>
       {% endif %}
   {% endfor %}

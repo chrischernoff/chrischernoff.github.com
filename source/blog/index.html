@@ -1,16 +1,13 @@
 ---
 layout: default
 sidebar: collapse
-intro: true
-title: "Blog & UX Portfolio of Chris Chernoff"
 ---
-
 <div class="blog-index">
   <header class="list">
-    <h1>Recent Posts</h1>
+    <h1>Blog Archive</h1>
   </header>
   {% assign index = true %}
-  {% for post in site.posts | limit: 3 %}
+  {% for post in paginator.posts %}
     {% if post.category != "hidden" and post.category != "work" %}
       {% assign content = post.content %}
         <article>
@@ -19,21 +16,15 @@ title: "Blog & UX Portfolio of Chris Chernoff"
     {% endif %}
   {% endfor %}
   <footer>
-    <a style="display:none;" href="/blog">Older Posts</a>
-  </footer>
-</div>
-<div class="blog-index">
-  <header class="list">
-    <h1>Selected Work</h1>
-  </header>
-  {% for post in site.posts | sort: post.order %}
-      {% if post.category == "work" %}
-        {% assign content = post.content %}
-          <article>
-            {% include article.html %}
-          </article>
+
+      {% if paginator.next_page %}
+        <a class="basic-alignment left" href="{{paginator.next_page}}">Older Posts</a>
       {% endif %}
-  {% endfor %}
+      {% if paginator.previous_page %}
+      <a class="basic-alignment right" href="{{paginator.previous_page}}">Newer Posts</a>
+      {% endif %}
+    </p>
+  </footer>
 </div>
 <aside class="sidebar">
   {% if site.blog_index_asides.size %}

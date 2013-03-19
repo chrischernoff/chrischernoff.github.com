@@ -2,7 +2,7 @@
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     {% for post in site.posts limit: site.recent_posts %}
-      {% if post.category != "work" %}
+      {% if post.category != "work" and post.category != "hidden" %}
         <li class="post">
           <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
         </li>

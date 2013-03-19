@@ -3,9 +3,8 @@ layout: default
 single: true
 ---
 
-<div class="work_article_container">
+<div class="article_container">
 <article class="hentry" role="article">
-  {% assign title = page.title %}
   {% include article.html %}
   <footer>
     <!-- <p class="meta">
@@ -16,16 +15,14 @@ single: true
     {% unless page.sharing == false %}
       {% include post/sharing.html %}
     {% endunless %}
-    {% unless page.pagination == false %}
-      <p class="meta">
-        {% if page.previous.url and page.previous.category == "work" %}
-          <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><span>Previous Project</span><span>{{page.previous.title}}<span></a>
-        {% endif %}
-        {% if page.next.url and page.next.category == "work" %}
-          <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><span>Next Project</span><span>{{page.next.title}}<span></a>
-        {% endif %}
-      </p>
-    {% endunless %}
+    <p class="meta">
+      {% if page.previous.url and page.previous.category != "hidden" and page.previous.category != "work" %}
+        <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><span>Previous</span><span>{{page.previous.title}}<span></a>
+      {% endif %}
+      {% if page.next.url and page.next.category != "hidden" and page.next.category != "work" %}
+        <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><span>Next</span><span>{{page.next.title}}<span></a>
+      {% endif %}
+    </p>
   </footer>
 </article>
 {% if site.disqus_short_name and page.comments == true %}
@@ -37,8 +34,8 @@ single: true
 </div>
 {% unless page.sidebar == false %}
 <aside class="sidebar">
-  {% if site.work_post_asides.size %}
-    {% include_array work_post_asides %}
+  {% if site.post_asides.size %}
+    {% include_array post_asides %}
   {% else %}
     {% include_array default_asides %}
   {% endif %}
