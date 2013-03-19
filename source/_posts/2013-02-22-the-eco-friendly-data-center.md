@@ -12,8 +12,6 @@ To say that technology is improving at a blistering pace would be a gross unders
 
 Data centers are no exception to this trend. Racks and racks of top-shelf hardware run 24/7/365, fans screaming at 10,000 RPM and CPUs sizzling.
 
-> This is why I was refreshingly surprised to see Facebook, one of the premier tech companies make a move somewhat incongruent with today's trends.
-
 This is why I was refreshingly surprised to see Facebook, one of the premier tech companies make a move somewhat incongruent with today's trends. Facebook certainly puts plenty of time and effort into making their products perform well, have frictionless user experiences, and cost as little as possible (free). 
 
 However, [this week](http://www.oregonlive.com/silicon-forest/index.ssf/2013/02/facebook_plans_cold_storage_fo.html) they revealed that with the introduction of their new 3 exabyte (3.2 billion gigabytes) "cold storage data facility" they are going to accept _slightly_ slower performance in the interest of being more eco-friendly and cost-effective.
