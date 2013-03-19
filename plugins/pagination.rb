@@ -31,7 +31,10 @@ module Jekyll
     #                   "next_page" => <Number> }}
     def paginate(site, page)
       all_posts = site.site_payload['site']['posts']
-      pages = Pager.calculate_pages(all_posts, site.config['paginate'].to_i)
+      exclude_count = site.config['exclude_count'].to_i
+      net_posts = all_posts.size - exclude_count
+      # The following line used to pass all_posts instead of net_posts.
+      pages = Pager.calculate_pages(net_posts, site.config['paginate'].to_i)
       page_dir = page.destination('').sub(/\/[^\/]+$/, '')
       page_dir_config = site.config['pagination_dir']
       dir = ((page_dir_config || page_dir) + '/').sub(/^\/+/, '')
@@ -60,7 +63,8 @@ module Jekyll
     #
     # Returns the Integer number of pages.
     def self.calculate_pages(all_posts, per_page)
-      (all_posts.size.to_f / per_page.to_i).ceil
+      # Before I modded this plugin to subtract the exclude_count, the line below divided all_posts.size.to_f.
+      (all_posts.to_f / per_page.to_i).ceil
     end
 
     # Determine if pagination is enabled for a given file.
