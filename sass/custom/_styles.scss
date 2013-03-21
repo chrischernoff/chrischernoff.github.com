@@ -693,3 +693,10 @@ article > footer {
 #content .blog-index > footer {
 	margin-bottom: 1em;
 }
+
+figure.code td {
+	text-align: left;
+	&.gutter, &.code{
+		padding: 0;
+	}
+}
