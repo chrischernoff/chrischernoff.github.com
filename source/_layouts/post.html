@@ -18,10 +18,10 @@ single: true
     {% unless page.pagination == false %}
       <p class="meta">
         {% if page.previous.url and page.previous.category != "hidden" and page.previous.category != "work" %}
-          <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><span>Previous Post</span><span>{{page.previous.title}}<span></a>
+          <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><span>Previous Post</span><span>{{page.previous.title | truncate: 40 }}<span></a>
         {% endif %}
         {% if page.next.url and page.next.category != "hidden" and page.next.category != "work" %}
-          <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><span>Next Post</span><span>{{page.next.title}}<span></a>
+          <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><span>Next Post</span><span>{{page.next.title | truncate: 40 }}<span></a>
         {% endif %}
       </p>
     {% endunless %}
