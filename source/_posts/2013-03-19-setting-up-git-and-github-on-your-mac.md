@@ -4,7 +4,7 @@ title: "Beginner's Setup Guide for Git & Github on Mac OS X"
 date: 2013-03-19 22:26
 banner: /uploads/2013/03/git_setup.jpg
 ---
-There are already plenty of guides that explain the particular steps of getting Git and Github going on your mac in detail. However I had difficulty finding one that explained _every_ step required _in order_ with simple enough instructions for Terminal novices to follow along with autonomously.
+There are already plenty of guides that explain the particular steps of getting Git and Github going on your mac in detail. However, I had difficulty finding one that explained _every_ step required _in order_ with simple enough instructions for Terminal novices to follow along with autonomously.
 
 So I decided to write one myself.
 
@@ -109,11 +109,18 @@ $ git config --global user.name "Your Name Here"
 $ git config --global user.email "your_name@domain.com"
 {% endcodeblock %}
 
+## <a id="setupgithub"></a>Setup Github
+{% img right /uploads/2013/03/github.jpg 300 %} 
+
+"_[GitHub](http://en.wikipedia.org/wiki/GitHub) is a web-based hosting service for software development projects that use the Git revision control system._"
+
+Go to [Github.com](http://www.github.com) and create a free account if you haven't already.
+
 #### <a id="keychainhelper"></a>Github Keychain Helper
 
 To save time in the future, we'll install a utility that will allow your computer to authenticate with Github automatically instead of having to enter your username/password during each session.
 
-First, check if the helper is installed by typing `git credential-osxkeychain`.
+First, check if the helper is installed by typing `git credential-osxkeychain` into the terminal.
 
 If the helper is installed, the terminal will give you instructions on how to use it:
 
@@ -121,7 +128,9 @@ If the helper is installed, the terminal will give you instructions on how to us
 Usage: git credential-osxkeychain <get|store|erase>
 ```
 
-If you see these instructions, proceed to [Setup Github](#setupgithub). If you _don't_ have the keychain helper already installed, you'll see this instead:
+If see the above message, you are now able to access Git repositories using the HTTPS method. There's a very good chance that this is the only method you will need to access repositories and you can [move on to my final notes](#done).
+
+If you _don't_ have the keychain helper already installed, you'll see this instead:
 
 {% codeblock lang:bash %}
 git: 'credential-osxkeychain' is not a git command. See 'git --help'.
@@ -136,7 +145,7 @@ $ curl -s -O http://github-media-downloads.s3.amazonaws.com/osx/git-credential-o
 # Modify permissions on the helper so it can operate
 $ chmod u+x git-credential-osxkeychain
 
-# Move the helper so Git can access it. This command will ask you for your (computer) password. As you're typing your password, it won't show the characters, press return when done typing it.
+# Move the helper so Git can access it. This command will ask you for your (computer user) password. As you're typing your password, it won't show the characters, press return when done typing it.
 $ sudo mv git-credential-osxkeychain /usr/local/git/bin
 
 # Tells Git to use the helper
@@ -146,27 +155,22 @@ $ git config --global credential.helper osxkeychain
 $ git credential-osxkeychain
 ```
 
-If the helper has been installed successfully, the terminal will give you instructions on how to use it:
+Once again, if the helper has been installed successfully, the terminal will give you instructions on how to use it:
 
 {% codeblock lang:bash %}
 Usage: git credential-osxkeychain <get|store|erase>
 {% endcodeblock %}
 
-If see the above message, proceed to [Setup Github](#setupgithub). If you don't see the above message, you hit a snag along the way. Try going through the [keychain helper install](#keychainhelper) steps again.
+If see the above message, you are now able to access Git repositories using the HTTPS method. There's a very good chance that this is the only method you will need to access repositories and you can [move on to my final notes](#done).
 
-## <a id="setupgithub"></a>Setup Github
-{% img right /uploads/2013/03/github.jpg 300 %} 
+If you don't see the above message, you hit a snag along the way. Try going through the [keychain helper install](#keychainhelper) steps again.
 
-"_[GitHub](http://en.wikipedia.org/wiki/GitHub) is a web-based hosting service for software development projects that use the Git revision control system._"
+Otherwise, if you have a specific reason that you need to access Git repositories using SSH, proceed to [SSH Keys](#sshkeys). 
 
-Go to [Github.com](http://www.github.com) and create a free account if you haven't already.
-
-#### SSH Keys
+#### <a id="sshkeys"></a>SSH Keys (optional step)
 _"[SSH](http://en.wikipedia.org/wiki/Secure_Shell#Definition) uses public-key cryptography to authenticate the remote computer and allow it to authenticate the user, if necessary. There are several ways to use SSH; one is to use automatically generated public-private key pairs to simply encrypt a network connection, and then use password authentication to log on."_
 
 An SSH key basically lets your computer uniquely identify itself when it connects to servers. If Github is aware of the key your computer is using, you won't have to enter your Github username/password every time you connect.
-
-Therefore, it is important that you don't share your SSH key.
 
 ##### Check for pre-existing SSH keys on your computer
 Let's see if your computer has one or more keys already installed:
@@ -254,7 +258,7 @@ Now let's test that it all worked.
  but GitHub does not provide shell access.
 {% endcodeblock %}
 
-## Congratulations!
+## <a id="done"></a>Congratulations!
 {% img /uploads/2013/03/maverick.jpg %}
 
 Your Mac is now up and running with both Git and Github. I intend to write another post about some of the commonly used commands I always find myself looking up syntax for, as well as those that members on the team had to learn in order to effectively take part in the production process.
