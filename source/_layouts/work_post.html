@@ -8,14 +8,9 @@ single: true
   {% assign title = page.title %}
   {% include article.html %}
   <footer>
-    <!-- <p class="meta">
-      {% include post/author.html %}
-      {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-      {% include post/categories.html %}
-    </p> -->
-    {% unless page.sharing == false %}
+    {% if page.sharing == true %}
       {% include post/sharing.html %}
-    {% endunless %}
+    {% endif %}
     {% unless page.pagination == false %}
       <p class="meta">
         {% if page.previous.url and page.previous.category == "work" %}
