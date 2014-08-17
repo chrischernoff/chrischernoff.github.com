@@ -144,7 +144,6 @@ body.sidebar-footer aside.sidebar {
 aside.sidebar {
 	color: black;
 	margin-top: 1.75em;
-	border: 1px solid $light-shadow;
 	background: white;
 	a {
 		color: $link-color;
@@ -270,8 +269,6 @@ p.meta {
 article {
 	padding-top: 0;
 	background: white;
-	border: 1px solid $light-shadow;
-	// padding-bottom: 2em;
 	width: 100%;
 }
 
@@ -315,13 +312,6 @@ article.work {
 			}
 		}
 	}
-}
-
-
-
-.article_container, .work_article_container {
-	// padding-right: 2em;
-	border-right: 1px solid $light-gray;
 }
 
 .post_thumb {
