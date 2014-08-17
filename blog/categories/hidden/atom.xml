@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hidden | burnedpixel]]></title>
+  <link href="http://www.burnedpixel.com/blog/categories/hidden/atom.xml" rel="self"/>
+  <link href="http://www.burnedpixel.com/"/>
+  <updated>2014-08-17T08:37:26-07:00</updated>
+  <id>http://www.burnedpixel.com/</id>
+  <author>
+    <name><![CDATA[Chris Chernoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[About Me]]></title>
+    <link href="http://www.burnedpixel.com/about"/>
+    <updated>2013-02-01T00:00:00-08:00</updated>
+    <id>http://www.burnedpixel.com/about</id>
+    <content type="html"><![CDATA[<h2 id="short-version">Short version</h2>
+
+<h4 id="who-i-am">Who I am</h4>
+<ul>
+  <li>My name is Chris Chernoff</li>
+  <li>I live in sunny Los Angeles, California</li>
+  <li>I’m very passionate about technology and design</li>
+  <li>I’m also quite enthusiastic about
+    <ul>
+      <li><a href="http://en.wikipedia.org/wiki/Formula_1">Formula 1</a></li>
+      <li><a href="http://en.wikipedia.org/wiki/Nascar">NASCAR</a></li>
+      <li><a href="http://en.wikipedia.org/wiki/NFL">NFL</a></li>
+      <li>Snowboarding</li>
+      <li>Mexican food</li>
+      <li>Metal music</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="what-i-do">What I do</h4>
+<ul>
+  <li>User Experience Design
+    <ul>
+      <li>Interaction design</li>
+      <li>Information architecture</li>
+      <li>User Interface design</li>
+      <li>User research</li>
+      <li>Rapid prototyping</li>
+      <li>Content strategy</li>
+      <li>Production/product management</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="interested-in-hiring-or-contracting-me">Interested in hiring or contracting me?</h4>
+<p>I’m currently looking to work on a new project, please feel free to contact me at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#104;&#114;&#105;&#115;&#064;&#098;&#117;&#114;&#110;&#101;&#100;&#112;&#105;&#120;&#101;&#108;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#098;&#117;&#114;&#110;&#101;&#100;&#112;&#105;&#120;&#101;&#108;&#046;&#099;&#111;&#109;</a> or on <a href="http://www.linkedin.com/in/chrischernoff/">LinkedIn</a>.</p>
+
+<h4 id="social-media">Social Media</h4>
+
+<table>
+  <tr>
+    <td><a class="no_underline" href="http://www.twitter.com/burnedpixel"><img src="http://www.burnedpixel.com/images/twitter_circle.svg" /></a></td>
+    <td><a class="no_underline" href="http://instagram.com/burnedpixl"><img src="http://www.burnedpixel.com/images/instagram_circle.svg" /></a></td>
+    <td><a class="no_underline" href="http://open.spotify.com/user/burnedpixel"><img src="http://www.burnedpixel.com/images/spotify_circle.svg" /></a></td>
+    <td><a class="no_underline" href="http://burned.yelp.com"><img src="http://www.burnedpixel.com/images/yelp_circle.svg" width="25" height="25" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.twitter.com/burnedpixel">Twitter</a></td>
+    <td><a href="http://instagram.com/burnedpixl">Instagram</a></td>
+    <td><a href="http://open.spotify.com/user/burnedpixel">Spotify</a></td>
+    <td><a href="http://burned.yelp.com">Yelp</a></td>
+  </tr>
+</table>
+
+<hr />
+
+<h2 id="long-version">Long Version</h2>
+
+<h4 id="i-love-technology">I love technology.</h4>
+
+<p>I really do. I’ve always been fascinated by how things work, as well as the problem solving process that one goes through when things don’t work.</p>
+
+<p>Growing up I was fortunate to have gadgets like a GameBoy, portable CD players, a VCR, stereo equipment, radio controlled cars, heck even a <a href="http://en.wikipedia.org/wiki/Tamagotchi">Tamagotchi</a>.</p>
+
+<p>Each item had a unique enjoyable experience and a collection of quirks that came along with it. As much as I loved listening to music or playing games, often times a good portion of my enjoyment came from figuring out how to fix things when they inevitably broke.</p>
+
+<p>When we got our <a href="http://en.wikipedia.org/wiki/Power_Macintosh_6200">first computer</a> at home, it represented a quantum shift in my life. I had already mastered the Apple IIs in the computer lab at school, but a <em>Macintosh</em> was a totally different ball-game<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+
+<p>The level of complexity and flexibility provided by computer software encouraged and inspired me to acquire all sorts of knowledge and skills at a rapid pace. I taught myself how to create and host web pages<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>, how to use tools like Photoshop and Quark Xpress, how to set up networks, and many other things that now seem second nature to me.</p>
+
+<h4 id="i-also-love-design">I also love design.</h4>
+
+<p>One huge benefit computers provided me was the ability to express myself creatively. I’ve never been particularly skilled at drawing or painting, however with digital illustration and photo manipulation tools at my fingertips a whole new world had been opened to me.</p>
+
+<p>As time went on, I became acutely aware of the typography, composition, form, and functionality of everything I encountered and interacted with and used them as inspiration for creating works of my own.</p>
+
+<p>I continued learning and improving my process, and went on to study design at UCLA. Since then, I’ve been fortunate to have worked at a variety of companies that have pushed the envelope for design and technology in their respective industries.</p>
+
+<h4 id="basically-im-working-my-dream-job">Basically, I’m working my dream job.</h4>
+
+<p>This ultimately guided me towards a line of work that fits my interests and skill-set very closely: User Experience Design.</p>
+
+<p>As a UX designer, I enjoy distilling complex problems and scenarios into experiences that meet user needs and business goals. </p>
+
+<p>I channel my critical thinking and design sensibilities through a number of disciplines including interaction design, information architecture, user interface design, user research, rapid prototyping, content strategy, and production/product management.</p>
+
+<p>My knowledge of programming and markup languages as well as my endless desire to keep up with emerging technologies allow me to collaborate effectively with engineering teams to make well informed practical design decisions.</p>
+
+<p>Ultimately, what drives me is the hope that my work might contribute — even in incredibly small ways — towards users’ lives being more convenient and enjoyable.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This was <em>way</em> before consumers viewed Macs (and Apple products in general) as viable or even worthwhile for daily use. I would go on to spend roughly the next 10 years of my life being chastised simply because my computer couldn’t run Counter-Strike.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Shout-out to <a href="http://en.wikipedia.org/wiki/GeoCities">Geocities</a> and <a href="http://en.wikipedia.org/wiki/Angelfire">Angelfire</a>!<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

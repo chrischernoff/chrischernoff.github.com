@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[burnedpixel]]></title>
+  <link href="http://www.burnedpixel.com/atom.xml" rel="self"/>
+  <link href="http://www.burnedpixel.com/"/>
+  <updated>2014-08-17T08:37:26-07:00</updated>
+  <id>http://www.burnedpixel.com/</id>
+  <author>
+    <name><![CDATA[Chris Chernoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[With liberty and justice for all.]]></title>
+    <link href="http://www.burnedpixel.com/blog/with-liberty-and-justice-for-all/"/>
+    <updated>2013-06-12T08:00:00-07:00</updated>
+    <id>http://www.burnedpixel.com/blog/with-liberty-and-justice-for-all</id>
+    <content type="html"><![CDATA[<p>Much has been revealed over the past six or seven days on the subject of government spying, specifically extensive government access to private data, and the sheer ridiculousness (and illegality) of said access. </p>
+
+<p>I’m of course talking about <a href="http://www.theverge.com/2013/6/6/4403868/nsa-fbi-mine-data-apple-google-facebook-microsoft-others-prism">PRISM</a>, the apparently congressionally-authorized top-secret domestic data surveillance operation the NSA has been running for at least the past half decade that was recently leaked by <a href="http://m.guardiannews.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance">Edward Snowden</a>. </p>
+
+<!-- More -->
+
+<p>This program and others backed in part by the <a href="http://www.nytimes.com/2008/07/10/washington/10fisa.html">Foreign Intelligence Surveillance Act</a>, have forced compliance of some of the biggest and most commonly used tech and communication companies on the planet.</p>
+
+<p>Personally, I’m <strong>crushed</strong>. Crushed not just as a user of technology from companies like Apple, Google, Facebook, or a user of even computer technology in general, but as an <em>American</em>.</p>
+
+<p>This isn’t supposed to happen to us. We’re supposed to be the good guys. This is something that we’ve been led to believe is only plausible (or even possible) in far-off authoritarian nations like former Soviet Russia, present day China, or a handful dictatorships in the Middle East and South America.</p>
+
+<p>Our government is not perfect, we’ve always known this. Its foreign policy is a <a href="http://drones.pitchinteractive.com/">mess</a>, the <a href="http://en.wikipedia.org/wiki/Military%E2%80%93industrial_complex">military industrial complex</a> grows larger as the decades press on, and our economy is between <a href="http://www.latimes.com/business/la-fi-ucla-forecast-20130605,0,7676874.story">dismal</a> and <a href="http://www.washingtonpost.com/blogs/wonkblog/wp/2013/04/26/the-incredible-stagnant-u-s-economy/">stagnant</a> depending on who you ask. However the one thing that’s always kept us Americans feeling proud of our country and to actually be <em>Americans</em> was the notion that our government still had <em>some</em> shred of integrity where respecting our laws and personal freedoms were concerned.</p>
+
+<p>That last shred is now gone.</p>
+
+<p>I suppose the writing has been on the wall for a while. The enactment — and renewal — of the <a href="http://en.wikipedia.org/wiki/Patriot_Act">Patriot act</a>, the constant barrage of proposals for censorship legislation under the guise of protection like <a href="http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act">SOPA</a> and <a href="http://en.wikipedia.org/wiki/PROTECT_IP_Act">PIPA</a>, dangerous precedents set by <a href="http://en.wikipedia.org/wiki/United_States_v._Graham">court decisions</a> and perhaps most obviously the <a href="http://www.wired.com/threatlevel/2012/03/ff_nsadatacenter/">gigantic datacenter the NSA built in Utah</a>, have all chipped away at the veneer of our “rights” as Americans.</p>
+
+<p>However I don’t think I’ve personally seen a previous example where our government has so eggregiously stepped outside of its role as “protector of American interests” and engaged in activities that could only be used for oppression and censorship.</p>
+
+<p>We have and will continue to see shill opinion pieces by domestic media outlets about how PRISM is strictly an anti-terrorism program, and much of America will probably buy it. There will be a <a href="http://www.nytimes.com/2013/06/11/opinion/brooks-the-solitary-leaker.html?hp&amp;_r=3&amp;">smear campaign</a> about how Edward Snowden is a <a href="http://www.huffingtonpost.com/2013/06/11/john-boehner-edward-snowden_n_3420635.html">traitor</a>, a <a href="http://startingpoint.blogs.cnn.com/2013/06/10/rep-peter-king-says-nsa-leaker-edward-snowden-should-be-prosecuted-to-the-fullest-extent-of-the-law/">defector</a>, a mere high school dropout and a double agent for the Chinese.</p>
+
+<p>Except he isn’t any of those things. He’s a guy probably not too disimilar from folks like myself who are good at computers, got jobs using them, and started making good money. The difference is while I’m staring at user interface mockups and code all day, he was looking at the government’s dirty laundry.</p>
+
+<p>The things he saw — PRISM, FISC orders, and who knows what else — compelled him to blow the whistle and literally walk away from his family, his <a href="http://www.dailymail.co.uk/news/article-2339202/Lindsay-Mills-girlfriend-Edward-Snowden-Woman-NSA-leaker-left-member-acrobat-troupe.html">live-in girlfriend of four years</a>, sizable paychecks and perhaps most importantly his identity as an American.</p>
+
+<p>I don’t really know where President Obama fits into all of this. <a href="http://www.washingtonpost.com/investigations/us-intelligence-mining-data-from-nine-us-internet-companies-in-broad-secret-program/2013/06/06/3a0c0da8-cebf-11e2-8845-d970ccb04497_print.html">Some reports are saying</a> that his daily intelligence briefings contain information facilitated by PRISM more often than not, but we don’t know for sure.</p>
+
+<p>He’s been treading on thin ice lately for a variety of reasons, but he better answer for this. Last week when news broke that the government had <a href="http://www.guardian.co.uk/world/2013/jun/06/nsa-phone-records-verizon-court-order">gained temporary access to the call records of Verizon customers via court order</a> and later when PRISM was leaked, the President <a href="http://www.huffingtonpost.com/2013/06/07/obama-nsa_n_3403389.html">dismissed</a> them as non-issues. </p>
+
+<p>Meanwhile, the tech companies who were forced to participate in PRISM have been releasing <a href="https://www.facebook.com/zuck/posts/10100828955847631">statements</a> that <a href="http://yahoo.tumblr.com/post/52491403007/setting-the-record-straight">flatly deny</a> any knowledge or invovlement. I don’t really expect them to do much else besides try to save face considering they’re not allowed to publicly acknowledge that the classified program exists.</p>
+
+<p>Regardless of what the President, congress, tech companies, or anyone says, the Internet is no longer safe. This may seem like an obvious or johnny-come-lately statement, but in an era where so many of our social interactions are online and so much of our <strong>private</strong> data is online, we can’t just worry about Nigerian princes trying to give us money or hackers trying to take it. No. We have to worry about the government listening in on everything we do.</p>
+
+<p>Much of our 4th ammendment rights are gone, our 2nd ammendment rights are on their way out, and this road we’re headed down will ultimately lead to our most prized privileges — the rights to free speech, assembly, press, religion, and petition provided by the 1st ammendment — being taken away.</p>
+
+<p>George W. Bush and Barack Obama haven’t been the political despots of the left and right’s nightmares. They have, however, slowly allowed all of the pieces to come into place for such an entity to materialize should the wrong person (or people) be elected in the future.</p>
+
+<p>The worst and most terrifying part about all of this is I have no idea what to do about it.</p>
+
+<p>I can <a href="https://supporters.eff.org/donate">donate to the Electronic Frontier Foundation</a> and I can <a href="https://www.aclu.org/donate/join-renew-give?ms=web_menu_gift">donate to the American Civil Liberties Union</a>. Both organizations are <a href="http://www.aclu.org/blog/national-security-technology-and-liberty/aclu-files-lawsuit-challenging-nsas-patriot-act-phone">committed</a> to putting up a legal fight against the government’s transgressions. </p>
+
+<p>I’ve signed a <a href="https://petitions.whitehouse.gov/petition/pardon-edward-snowden/Dp03vGYD">White House petition to pardon Snowden</a>, and have probably put a target on my back in the process.</p>
+
+<p>I can join protests both physical and digital, but the notion of me completely removing all of my data and ceasing my participation in <em>all</em> of the online services I currently use would not only be stifling to my personal and professional lives, but practically impossible.</p>
+
+<p>I could put on an tinfoil hat and leave my iPhone in airplane mode to prevent myself from being tracked in the future unless I needed to make a call or check my email, but then the government is probably be monitoring both of those protocols.</p>
+
+<p>I could encrypt all of my documents currently on Google Drive and Dropbox and store them locally or trust the encryption to a site like <a href="https://mega.co.nz/">Mega</a>, whose founder Kim Dotcom is already under <a href="http://motherboard.vice.com/blog/the-fbi-has-to-return-kim-dotcoms-hard-drives">wrongful investigation by the FBI</a>. He’s rightfully stating that privacy is going to be one of the biggest trends going forward, and is promoting <a href="http://libertyblitzkrieg.com/2013/03/12/bitcoin-and-kim-dotcom-why-its-time-to-encrypt-everything/">encrypted email</a> among other things. However even then, the government could still technically spy on me in the future via my <a href="http://www.dailymail.co.uk/sciencetech/article-2115871/The-CIA-wants-spy-TV-Agency-director-says-net-connected-gadgets-transform-surveillance.html">Xbox or refridgerator</a> apparently.</p>
+
+<p>One thing I could definitely do is vote against every congressional incumbent in the next election. However there is no guarantee the newcomers would be any better. Some folks in congress are <a href="http://www.foxnews.com/politics/2013/06/09/paul-wants-to-lead-supreme-court-challenge-to-fed-tracking-americans-calls/">trying to fight these programs</a>, but many seem okay with them. This situation seems ripe for a supreme court showdown, however I’m not so sure I have faith in them to make the right call.</p>
+
+<p>Hollywood has always romanticized government spies protecting us from scary specters hiding in the shadows. However when faced with the reality that the government is actually turning those once hypothetical tools on the American people, it’s downright terrifying.</p>
+
+<p>I’ve always been proud to be an American, and still am. However, the events of the past week or so have me rapidly losing <a href="http://obeygiant.com/blog/wp-content/uploads/2008/02/barack-hope-poster.jpg">hope</a> for a bright future in <em>America</em><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Poster art created by my friend, the awesomely talented <a href="http://www.eyesonwalls.com/collections/alex-cherry">Alex Cherry</a>. Buy it <a href="http://www.deviantart.com/print/15851892/">here</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[When will the Internet kill cable TV?]]></title>
+    <link href="http://www.burnedpixel.com/blog/when-will-the-internet-kill-cable-tv/"/>
+    <updated>2013-04-15T12:00:00-07:00</updated>
+    <id>http://www.burnedpixel.com/blog/when-will-the-internet-kill-cable-tv</id>
+    <content type="html"><![CDATA[<p>Television has had an awesome run. For over 60 years the medium has brought the delight and emotion of the big screen into the living room.</p>
+
+<p>While episodic series, live sports, and talking-head news programs are viewed by billions of eyeballs per year, the technology and infrastructure used to watch them is dead in the water.</p>
+
+<p><!-- More --></p>
+
+<p>That said, no one inside the TV industry seems to want to acknowledge this.</p>
+
+<p><strong>For decades</strong> content networks like FOX, NBC, Discovery, ESPN, HBO, and countless others have been running the same racket with cable service providers like Comcast and Time Warner, and satellite service providers like DirecTV and Dish Network.</p>
+
+<p>Year after year these providers shake you down for hundreds of dollars so you can watch programs on maybe a dozen or so of the two hundred plus channels they give you access to.</p>
+
+<p>They strategically finesse their service tiers and up-sell you on things you don’t want, or even worse, things that should be included for free. They charge you extra for DVR. They charge you for <em>the technology formerly known as High Definition</em>. They charge you for a man to come to your house to drill holes in your walls. They charge you when their newly-released-but-still-obsolete equipment inevitably fails. They charge you for <strong><em>everything</em></strong>.</p>
+
+<p>We’ve had to put up with this in the past primarily because that was the way things were done.</p>
+
+<h3 id="online-tv-distribution">Online TV distribution</h3>
+
+<p>The Internet is a fantastic tool. It allows people across the globe to share knowledge, solve problems, and look at pictures of cats. However up until about the last five years or so, it has been severely hobbled — at least in the United States — by relatively low bandwidth availability. Watching video in real-time over the Internet requires a great deal of bandwidth, and high definition video requires even more. In short, the Internet was <em>too slow</em>.</p>
+
+<p>Recently this situation has gotten much better with more and more folks gaining access to cable, DSL, or even fiber optic Internet connections.</p>
+
+<p>Services such as Netflix, Hulu, iTunes, Amazon Prime, and <a href="https://www.vdio.com/">Vdio</a> have popped up recently to provide viewers with a way to watch TV programming without having to use traditional cable boxes or satellite dishes. With rapidly growing content catalogs and <em>fairly</em> reasonable prices, these services are making headway towards where the TV industry will go. </p>
+
+<p>However there are still problems. </p>
+
+<h3 id="numerous-business-models">Numerous business models</h3>
+
+<h5 id="monthly-subscription-no-new-shows-no-commercials">Monthly Subscription, No New Shows, No Commercials</h5>
+
+<p>Netflix and Amazon Prime charge reasonable monthly fees for unlimited and ad-free access to their content catalogs of TV shows and movies. However they do not provide access to recently-aired episodes.</p>
+
+<h5 id="monthly-subscription-new-shows-commercials">Monthly Subscription, New Shows, Commercials</h5>
+
+<p>Hulu also charges an equally reasonable fee for access to their content catalog, and their users also have access to new episodes from popular shows as they’re airing on cable and satellite.</p>
+
+<p>The cost of this luxury comes in the form of commercial breaks.</p>
+
+<h5 id="la-carte-sales-new-shows-no-commercials">À La Carte Sales, New Shows, No Commercials</h5>
+
+<p>Other services like iTunes charge a premium per-episode (or per-season) amount for the relatively wider array of content Apple has negotiated access to, which includes many of the “older” items available on Netflix and Amazon Prime, as well as recently aired episodes like those available on Hulu.</p>
+
+<p>This content is provided ad free and is sold to users, who gain permanent access to the episodes they pay for. Users of streaming services, by contrast, do not retain any copies of content if they terminate their subscription.</p>
+
+<h5 id="network-specific-services">Network specific services</h5>
+
+<p>Meanwhile, content providers have their own idea of how they want to see this play out.</p>
+
+<p>For example, HBO and Showtime have introduced suites of apps (<a href="http://www.hbogo.com/">Go</a> and <a href="http://www.sho.com/sho/showtime-anytime">Anytime</a>, respectively) that allow users to watch their entire catalogs of content online. However users must <em>also</em> have traditional television service through a cable or satellite provider <em>and</em> pay the extra (generally $10-15/mo) for HBO or Showtime.</p>
+
+<p>Because these premium networks already broadcast their content commercial-free on cable and satellite, an obvious solution for these networks would be to allow users to pay a monthly fee for direct access through their apps. They know this, but seem stuck <a href="http://www.businessinsider.com/hbos-plan-to-offer-a-streaming-service-2013-3">appeasing cable/satellite providers</a>.</p>
+
+<h3 id="complicated-production-process">Complicated production process</h3>
+
+<p>This mess is largely the result of a process in which a select few control the development and marketing of content, and another select group controls the actual delivery system for the content.</p>
+
+<p>Basically, a concept is developed by one party. They then pitch this concept to a number of networks hoping that one of them likes the concept and provides enough funding to produce a limited set of episodes (six is apparently the magic number at the moment).</p>
+
+<p>If a network decides to move forward with a series, they cut a check for it to be made and slot it in their weekly lineup when its ready. </p>
+
+<p>This network offsets the cost of all those checks it cuts to content creators by charging service providers for the privilege of broadcasting their channel. At the same time, the network drums up advertisers to further offset the cost.</p>
+
+<p>This equation seems to have one too many components.</p>
+
+<h3 id="service-direct">Service direct</h3>
+
+<p>This solution may be oversimplified, but it seems content creators should just go directly to the service providers for funding. </p>
+
+<p>Netflix allowed them to do just this.</p>
+
+<p>They dipped their toes into the original content waters early last year with an eight episode season of <a href="http://en.wikipedia.org/wiki/Lilyhammer">Lilyhammer</a>. While the show didn’t garner the critical acclaim or public attention Netflix might have hoped, it signaled the beginning of a trend.</p>
+
+<p>In February of this year, they made a splash with the release of <a href="http://en.wikipedia.org/wiki/House_of_Cards_(U.S._TV_series)">House of Cards</a>. Not only did the show include star power such as Kevin Spacey, but Netflix released all 13 of its first season’s episodes simultaneously.</p>
+
+<p>Perhaps even more importantly, it was rumored that that Netflix beat out premium networks like HBO and Showtime for the rights to produce the show.</p>
+
+<p>The fact that a potentially A-tier show has finally been created outside of the traditional network sphere of influence is incredibly encouraging. Additionally, because Netflix is accessible on platforms ranging from cell phones to cheap set-top boxes like AppleTV to blu-ray players to Smart TVs, viewers have unprecedented flexibility to watch shows.</p>
+
+<p>The show has received pretty <a href="http://www.metacritic.com/tv/house-of-cards-2013">positive reviews</a>, and initial data coming back from users regarding how the offering affects their loyalty to Netflix <a href="http://www.slate.com/blogs/moneybox/2013/02/21/house_of_cards_netflix_subscribers_say_the_series_will_make_them_less_likely.html">appears favorable</a>. People like consuming content when they want to <em>the way they want to</em>. Netflix plans to release more shows in the coming year, including the broadcast TV refugee and cult hit <a href="http://en.wikipedia.org/wiki/Arrested_Development_(TV_series)">Arrested Development</a>.</p>
+
+<p>While the shows they’re footing the bill for look fantastic, I think it serves more as a proof of concept for how episodic content can be produced in the future. Rather than having to suckle up to the teat of a network for production and distribution assistance, independent production houses can create a series of episodes (crowd funding anyone?) and hand them off directly to distribution partners like Netflix.</p>
+
+<p>Whether production houses can actually independently create A-tier TV shows without traditional network backing or not, the point is that there is no need for <em>two</em> partners in the process. Either networks like HBO, Showtime, or even Fox move towards directly distributing their product without cable/satellite service providers, or Internet video service providers move more towards bankrolling the production of TV content. </p>
+
+<h3 id="a-superior-user-experience">A superior user experience</h3>
+
+<p>Being able to select exactly what you want to watch and then immediately begin watching it is incredibly convenient and satisfying. </p>
+
+<p>The cable/satellite providers band-aided the old broadcast model with DVRs in an effort to provide a similar experience. When TiVo and ReplayTV were introduced in the 90s, that was the best we had.</p>
+
+<p>However DVRs rely on users finding something they would like to watch in the future, set it to record, then return later to watch it. The “save what I’m watching right now for later” effect had immediate impact, but again it was sort of paraphrased from the VCR days and forced users to concern themselves with disk space. </p>
+
+<p>And while you can set programs to record on a DVR from your computer or mobile device, you have to plan ahead for that to be particularly useful.</p>
+
+<p>Even worse, watching television live means being subjected to ads and revolving your life around the network’s schedule.</p>
+
+<p>Some programming, such as sports and news, lend themselves to being broadcast live. However with the rapid improvement of live-streaming technologies, and the introduction of services like <a href="http://en.wikipedia.org/wiki/NFL_Sunday_Ticket">NFL Sunday Ticket</a> being able to watch live events online is already a reality.</p>
+
+<h3 id="so-what-can-be-done">So what <em>can</em> be done?</h3>
+
+<p>Clearly the iTunes model of paying $30+ for each popular show you’d like to watch a season of is not a viable replacement for the traditional cable/satellite pricing model. People would either watch far less TV or they’d be broke.</p>
+
+<p>But what if Netflix increased its monthly fee to $20 or $30 per month to offset lost ad revenue and posted all of this season’s Mad Men episodes at once like it did with House of Cards?</p>
+
+<p>What if HBO opened up its catalog to Netflix or a similar streaming service and allowed people to use one digital destination to consume all of their episodic content?</p>
+
+<p>Apple has long been rumored to be working on a streaming TV service that would include new releases. If anyone could figure out how to make the dollars and cents of offering a service that allowed all-you-can-eat consumption of old and new ad-free shows paired with a flat monthly rate, it’d be them.</p>
+
+<p>People are dying for someone to figure this out.</p>
+
+<p>For now, it must be more profitable for networks to continue dealing with traditional providers and charge exorbitant rates to à la carte services like iTunes, enforce ads on Hulu, and delay show availability on ad-free services like Netflix. </p>
+
+<p>I also suspect that the rapidly evaporating DVD/Blu-Ray market is encouraging them to keep things this way as long as they can.</p>
+
+<h3 id="just-do-it-already">Just do it already</h3>
+
+<p>The end is near for traditional television distribution. The question is whether the networks will figure out how to keep themselves in the next-generation distribution process like record labels did with the music industry (at least for big releases), or if they’ll be circumvented like traditional video game publishers were with mobile/tablet gaming.</p>
+
+<p>Regardless of which outcome occurs, I just want them to figure this out already. There are millions of people ready to pay good money for the right service.</p>
+
+<p>The solutions are getting closer, but this song and dance has been old-hat for a long time. Just do it already!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Beginner's Setup Guide for Git & Github on Mac OS X]]></title>
+    <link href="http://www.burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/"/>
+    <updated>2013-03-19T22:26:00-07:00</updated>
+    <id>http://www.burnedpixel.com/blog/setting-up-git-and-github-on-your-mac</id>
+    <content type="html"><![CDATA[<p>There are already plenty of guides that explain the particular steps of getting Git and Github going on your mac in detail. However, I had difficulty finding one that explained <em>every</em> step required <em>in order</em> with simple enough instructions for Terminal novices to follow along with autonomously.</p>
+
+<p>So I decided to write one myself.</p>
+
+<!--More-->
+
+<h2 id="background">Background</h2>
+
+<p>I enjoy helping people become more efficient and productive, particularly when it comes to their computers and mobile devices. At a recent job, the staff design team was beginning a period of close collaboration with the front-end development team in the interest of achieving the best possible product in the shortest period of time.</p>
+
+<p>However, there was a slight “problem.” The project’s codebase was exclusively managed via Git repositories on Github. Most of the designers had never worked with Git, let alone ever configured it on their workstations.</p>
+
+<p>Most of the designers had some knowledge of the technologies that went into the codebase, particularly presentation layer tech like HTML and CSS. Some even knew programming languages like Javascript, PHP, and Ruby.</p>
+
+<p>In an effort to unleash this previously untapped resource for a round of intense polishing and bug-fixing, I took it upon myself to write a step-by-step guide that <em>any</em> member of our studio could follow and be up and running with developer tools, Git, connected to Github, and ready to work on the project codebase.</p>
+
+<p>This then is a slightly abbreviated<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> version of the guide I distributed out to the team. Ultimately just a few days after releasing it, nearly everyone in the office — including design, production, management, and even a few devs setting up new machines — was able to at least view the latest code on their workstations.</p>
+
+<p>Aside from the fact that my guide helped others quickly get through the arduous process of installation and configuration, I was happy to have it as a quick reference for myself when setting up new machines of my own. Enjoy!</p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>This tutorial assumes you’re using a Mac running at least OS X 10.7. If you are unsure of what OS you have, go up to the top left of your screen, click the Apple menu, and select “About This Mac.”</p>
+
+<p>You’ll also need to ensure that your user account on your computer has admin privileges and that you know your account’s password.</p>
+
+<h2 id="install-the-command-line-tools-for-os-x">Install the Command Line Tools for OS X</h2>
+
+<p><a href="https://developer.apple.com/xcode/">Xcode</a> is a nearly 4GB developer suite Apple offers for free from the Mac App Store. However, for the purposes of getting Git and Github setup, you’ll only need a specific set of command line tools<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> which fortunately take up much less space.</p>
+
+<p>If you don’t mind the 4GB, by all means go for Xcode. Otherwise, you’ll have to go to <a href="http://connect.apple.com">connect.apple.com</a> and register an Apple Developer account in order to download these tools.</p>
+
+<p>Once you’ve registered, they can be found at <a href="http://developer.apple.com/xcode">developer.apple.com/xcode</a> by clicking on “View downloads” and finding the appropriate command line tools for your version of OS X in the list.</p>
+
+<ol>
+  <li>If you are on OS X <strong>10.7.x</strong>, download The <strong>10.7 Command Line Tools</strong>. If you are on OS X <strong>10.8.x</strong>, download The <strong>10.8 Command Line Tools</strong>.</li>
+  <li>When your download finishes, go ahead and open the DMG.</li>
+  <li>Run the Command Line Tools installer.</li>
+</ol>
+
+<h4 id="a-note-about-the-terminal">A note about the Terminal</h4>
+
+<p>The <a href="http://en.wikipedia.org/wiki/Terminal_(OS_X)">Terminal</a> application comes pre-installed with OS X, and can be found in the Applications -&gt; Utilities folder. You can also quickly access it using Spotlight.</p>
+
+<p>The terminal has a variety of uses, but for the purposes of this tutorial we’ll be using a syntax/command set called <a href="http://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash</a>. Terminal is already configured to use this syntax.</p>
+
+<p>When you enter a command and press return/enter, often times the terminal will execute it and complete the task immediately. </p>
+
+<p>Sometimes it will log information in the window while it’s working, but other times you might feel like it isn’t doing anything at all. </p>
+
+<p>Some of the commands later in this tutorial can take a few seconds (or minutes) to complete, so don’t type anything into the terminal window or close the terminal window until you see it present you with a fresh prompt ending in <code>yourusername$</code>.</p>
+
+<p>For the purposes of this tutorial, commands that I intend for you to type will be preceded with <code>$</code>, but don’t include that symbol when you enter the commands. It’s purely meant as an indicator and reference to the <code>$</code> that appears in your terminal prompt.</p>
+
+<p>Lines that contain comments/notes from me to will be preceded with <code>#</code> and will be dimmed. Don’t type these either.</p>
+
+<p>Make sure to press return after typing a command before you enter the next one.</p>
+
+<h2 id="installing-git">Installing Git</h2>
+<p><img class="right" src="http://www.burnedpixel.com/uploads/2013/03/git.jpg" /></p>
+
+<p><em>“<a href="http://en.wikipedia.org/wiki/Git_(software)">Git</a> is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.”</em></p>
+
+<p>We need to install Git onto your computer. It won’t have an icon in your dock, but it can be used by the Terminal (and other applications, more on that later).</p>
+
+<p>OS X comes with a fairly old version of Git pre-installed, so we’ll want to make sure that your terminal is using a more updated version.</p>
+
+<p>One specific reason you’ll want to have a newer version of Git than the one that ships with OS X is to take advantage of a nice authentication feature that allows you to seamlessly interact with Github.</p>
+
+<ol>
+  <li>
+    <p><a href="http://git-scm.com/download/mac">Download the latest stable release of Git</a>. It should start downloading a DMG which for some reason will include the words “Snow Leopard” in the file name…don’t worry, it works with Lion and Mountain Lion just fine.</p>
+  </li>
+  <li>
+    <p>When it’s done downloading, open the DMG and run the package installer. </p>
+
+    <p><em>Note: If you are using OS X 10.8 and haven’t already modified your security settings to allow the installation of third-party applications, you’ll need to make that adjustment<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> before OS X lets you install these tools.</em></p>
+  </li>
+  <li>
+    <p>Once the installer has finished, open the Terminal app and type <code>git --version</code> followed by the return key. Note that there are <em>two</em> dashes, not one.</p>
+  </li>
+  <li>
+    <p>The terminal should report back with your currently installed Git version.</p>
+
+    <p>If it reports a Git version that matches the version number marked on the DMG you downloaded (as of writing, this would be 1.8.1.3) proceed to <a href="#gitidentification">Configuring Git identification</a>, otherwise you’ll need to execute the following:</p>
+  </li>
+</ol>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># We need to make sure the Terminal goes through the correct order of folders to discover your newer version of Git.</span>
+</span><span class="line"><span class="nv">$ </span><span class="nb">echo</span> <span class="s2">&quot;export PATH=/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:$PATH&quot;</span> &gt;&gt; ~/.bash_profile
+</span><span class="line">
+</span><span class="line"><span class="c"># Tell the Terminal to look at your bash_profile to get the updated order of folders (your &quot;$PATH&quot;)</span>
+</span><span class="line"><span class="nv">$ </span><span class="nb">source</span> ~/.bash_profile
+</span><span class="line">
+</span><span class="line"><span class="c"># Now let&#39;s check your Git version again</span>
+</span><span class="line"><span class="nv">$ </span>git --version
+</span><span class="line">
+</span><span class="line"><span class="c"># You should now see the version number corresponding to the DMG you downloaded (e.g. 1.8.1.3)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<h2 id="a-idgitidentificationaconfiguring-git-identification"><a id="gitidentification"></a>Configuring Git identification</h2>
+
+<p>Now let’s configure your Git installation so other folks who might be working on projects with you know who’s doing all of the great work coming from your computer.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># Set your username</span>
+</span><span class="line"><span class="nv">$ </span>git config --global user.name <span class="s2">&quot;Your Name Here&quot;</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Set your email address</span>
+</span><span class="line"><span class="nv">$ </span>git config --global user.email <span class="s2">&quot;your_name@domain.com&quot;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<h2 id="a-idsetupgithubasetup-github"><a id="setupgithub"></a>Setup Github</h2>
+<p><img class="right" src="http://www.burnedpixel.com/uploads/2013/03/github.jpg" width="300" /> </p>
+
+<p>“<em><a href="http://en.wikipedia.org/wiki/GitHub">GitHub</a> is a web-based hosting service for software development projects that use the Git revision control system.</em>”</p>
+
+<p>Go to <a href="http://www.github.com">Github.com</a> and create a free account if you haven’t already.</p>
+
+<h4 id="a-idkeychainhelperagithub-keychain-helper"><a id="keychainhelper"></a>Github Keychain Helper</h4>
+
+<p>To save time in the future, we’ll install a utility that will allow your computer to authenticate with Github automatically instead of having to enter your username/password during each session.</p>
+
+<p>First, check if the helper is installed by typing <code>git credential-osxkeychain</code> into the terminal.</p>
+
+<p>If the helper is installed, the terminal will give you instructions on how to use it:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">Usage: git credential-osxkeychain &lt;get|store|erase&gt;
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>If see the above message, you are now able to access Git repositories using the HTTPS method. There’s a very good chance that this is the only method you will need to access repositories and you can <a href="#done">move on to my final notes</a>.</p>
+
+<p>If you <em>don’t</em> have the keychain helper already installed, you’ll see this instead:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">git: <span class="s1">&#39;credential-osxkeychain&#39;</span> is not a git command. See <span class="s1">&#39;git --help&#39;</span>.
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>To install the keychain helper, execute the following commands:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># Download the keychain helper</span>
+</span><span class="line"><span class="nv">$ </span>curl -s -O http://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
+</span><span class="line">
+</span><span class="line"><span class="c"># Modify permissions on the helper so it can operate</span>
+</span><span class="line"><span class="nv">$ </span>chmod u+x git-credential-osxkeychain
+</span><span class="line">
+</span><span class="line"><span class="c"># Move the helper so Git can access it. This command will ask you for your (computer user) password. As you&#39;re typing your password, it won&#39;t show the characters, press return when done typing it.</span>
+</span><span class="line"><span class="nv">$ </span>sudo mv git-credential-osxkeychain /usr/local/git/bin
+</span><span class="line">
+</span><span class="line"><span class="c"># Tells Git to use the helper</span>
+</span><span class="line"><span class="nv">$ </span>git config --global credential.helper osxkeychain
+</span><span class="line">
+</span><span class="line"><span class="c"># Check again to see if the helper is successfully installed</span>
+</span><span class="line"><span class="nv">$ </span>git credential-osxkeychain
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Once again, if the helper has been installed successfully, the terminal will give you instructions on how to use it:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">Usage: git credential-osxkeychain &lt;get|store|erase&gt;
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>If see the above message, you are now able to access Git repositories using the HTTPS method. There’s a very good chance that this is the only method you will need to access repositories and you can <a href="#done">move on to my final notes</a>.</p>
+
+<p>If you don’t see the above message, you hit a snag along the way. Try going through the <a href="#keychainhelper">keychain helper install</a> steps again.</p>
+
+<p>Otherwise, if you have a specific reason that you need to access Git repositories using SSH, proceed to <a href="#sshkeys">SSH Keys</a>. </p>
+
+<h4 id="a-idsshkeysassh-keys-optional-step"><a id="sshkeys"></a>SSH Keys (optional step)</h4>
+<p><em>“<a href="http://en.wikipedia.org/wiki/Secure_Shell#Definition">SSH</a> uses public-key cryptography to authenticate the remote computer and allow it to authenticate the user, if necessary. There are several ways to use SSH; one is to use automatically generated public-private key pairs to simply encrypt a network connection, and then use password authentication to log on.”</em></p>
+
+<p>An SSH key basically lets your computer uniquely identify itself when it connects to servers. If Github is aware of the key your computer is using, you won’t have to enter your Github username/password every time you connect.</p>
+
+<h5 id="check-for-pre-existing-ssh-keys-on-your-computer">Check for pre-existing SSH keys on your computer</h5>
+<p>Let’s see if your computer has one or more keys already installed:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># Point the terminal to the directory that would contain SSH keys for your user account.</span>
+</span><span class="line"><span class="nv">$ </span><span class="nb">cd</span> ~/.ssh
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>If you get the response “No such file or directory”, skip to <a href="#generatenewkey">Generate a new SSH Key</a>.</p>
+
+<p>Otherwise, you’ll need to backup and remove your existing SSH keys.</p>
+
+<h5 id="backup-and-remove-your-existing-ssh-keys">Backup and remove your existing SSH keys.</h5>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># Ensure that you are in your ~/.ssh folder</span>
+</span><span class="line"><span class="nv">$ </span><span class="nb">cd</span> ~/.ssh
+</span><span class="line">
+</span><span class="line"><span class="c"># Make a subdirectory called &quot;key_backup&quot; in the current directory</span>
+</span><span class="line"><span class="nv">$ </span>mkdir key_backup
+</span><span class="line">
+</span><span class="line"><span class="c"># Copies the id_rsa keypair into key_backup</span>
+</span><span class="line"><span class="nv">$ </span>cp id_rsa* key_backup
+</span><span class="line">
+</span><span class="line"><span class="c"># Deletes the id_rsa keypair in your ~/.ssh directory</span>
+</span><span class="line"><span class="nv">$ </span>rm id_rsa*
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<h5 id="a-idgeneratenewkeyagenerate-a-new-ssh-key"><a id="generatenewkey"></a>Generate a new SSH key</h5>
+<p>Now we’ll create a new SSH key to use with Github.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># Ensure that you are in your ~/.ssh folder</span>
+</span><span class="line"><span class="nv">$ </span><span class="nb">cd</span> ~/.ssh
+</span><span class="line">
+</span><span class="line"><span class="c"># Create a new ssh key using the provided email. The email you use in this step should match the one you entered when you created your Github account</span>
+</span><span class="line"><span class="nv">$ </span>ssh-keygen -t rsa -C <span class="s2">&quot;your_email@domain.com&quot;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>When it asks you to enter a file name in which to save the key, just press return/enter (leave the prompt blank).</p>
+
+<p>You will then be asked to enter a passphrase and confirm it. <strong>Don’t</strong> make this blank, and <strong>don’t</strong> make it an easily guessable. This prevents someone from easily acquiring and using your SSH key to impersonate you. Don’t worry, you won’t have to enter this key much (if at all) after initial setup.</p>
+
+<p>Press return after each time you’ve entered your selected passphrase. You won’t see the characters or bullets, the cursor will stay in the same spot as if you aren’t typing. </p>
+
+<p>If you make an error entering your password one of the times, just press return and it will prompt you to try again.</p>
+
+<p>Once you’ve successfully set your passphrase, the terminal will report that your key has been saved and will present you with some sweet ASCII art.</p>
+
+<h5 id="add-your-ssh-key-to-github">Add your SSH key to Github</h5>
+<p>In order for your computer to access Github without you having to enter your username/password all the time, Github needs to know the contents of the SSH key you just generated.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># The below command will copy your newly generated key to your computer&#39;s clipboard.</span>
+</span><span class="line"><span class="nv">$ </span>pbcopy &lt; ~/.ssh/id_rsa.pub
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Now we’ll add your key to Github:</p>
+
+<ol>
+  <li>Visit your <a href="https://github.com/settings/ssh">account settings</a>.</li>
+  <li>Click <strong>Add SSH key</strong>.</li>
+  <li>Enter a descriptive title for the computer you’re currently on, e.g. “Work iMac” into the Title field.</li>
+  <li>Paste your key into the <strong>Key</strong> field (it has already been copied to your clipboard).</li>
+  <li>Click <strong>Add Key</strong>.</li>
+  <li>Enter your Github password.</li>
+</ol>
+
+<p>Now let’s test that it all worked.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"> <span class="c"># Attempts to connect to Github using your SSH key.</span>
+</span><span class="line"> <span class="c"># Don&#39;t change the address shown below</span>
+</span><span class="line"> <span class="nv">$ </span>ssh -T git@github.com
+</span><span class="line">
+</span><span class="line"> <span class="c"># You may see the following warning:</span>
+</span><span class="line"> The authenticity of host <span class="s1">&#39;github.com (207.97.227.239)&#39;</span>
+</span><span class="line"> cant be established.
+</span><span class="line"> RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+</span><span class="line"> Are you sure you want to <span class="k">continue </span>connecting <span class="o">(</span>yes/no<span class="o">)</span>?
+</span><span class="line">
+</span><span class="line"> <span class="c"># Type yes and press return</span>
+</span><span class="line"> <span class="c"># You may have to enter your recently selected passphrase.</span>
+</span><span class="line">
+</span><span class="line"> <span class="c"># You should then see:</span>
+</span><span class="line"> Hi username! You<span class="err">&#39;</span>ve successfully authenticated,
+</span><span class="line"> but GitHub does not provide shell access.
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<h2 id="a-iddoneacongratulations"><a id="done"></a>Congratulations!</h2>
+<p><img src="http://www.burnedpixel.com/uploads/2013/03/maverick.jpg" /></p>
+
+<p>Your Mac is now up and running with both Git and Github. I intend to write another post about some of the commonly used commands I always find myself looking up syntax for, as well as those that members on the team had to learn in order to effectively take part in the production process.</p>
+
+<h2 id="recommended-tools">Recommended tools</h2>
+
+<h4 id="text-editors">Text Editors</h4>
+
+<p>If you’re just getting your feet wet with writing code, you’ll want to look into a text editor that is purpose built for that task.</p>
+
+<ul>
+  <li><a href="http://www.sublimetext.com/2">Sublime Text 2</a></li>
+  <li><a href="http://macromates.com/">TextMate</a> </li>
+  <li><a href="http://panic.com/coda/">Coda 2</a> </li>
+  <li><a href="http://www.barebones.com/products/bbedit/index.html?utm_source=thedeck&amp;utm_medium=banner&amp;utm_campaign=bbedit">BBEdit</a></li>
+</ul>
+
+<p>My hardcore colleagues wouldn’t leave me alone if I didn’t also mention command-line editors like <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a> and <a href="http://en.wikipedia.org/wiki/Emacs">Emacs</a>, but I’d recommend one of the previously listed apps for getting started.</p>
+
+<p>I <em>don’t</em> recommend using TextEdit as it doesn’t offer syntax highlighting, and I’m personally not fond of Dreamweaver for writing code as I feel it allows its <a href="http://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> mode to be used as a crutch. That said, Dreamweaver’s predecessor<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> in Adobe’s product lineup was what I learned to write HTML on, so there’s that. </p>
+
+<p>However with the explosion of online code teaching platforms out there (and Firebug/DOM inspector tools), I don’t see the need to use a WYSIWYG editor anymore.</p>
+
+<h4 id="git-gui-tools">Git GUI Tools</h4>
+
+<p>When I first started dabbling with Git, I used the popular <a href="http://www.git-tower.com/">Tower</a> app to manage my repositories. It has a fantastic interface and offers most of the features of the command line app.</p>
+
+<p>However when we began this endeavor at my past job, the development team and I wanted to ensure that all persons with access to the codebase thought about what the actions they were going to take, and deliberately execute commands.</p>
+
+<p>GUI tools are great, but they can sometimes allow disastrous things to happen with the push of a button. Additionally they can abstract away the syntax of the language/protocol they are built upon, and as a result leave users dependent on the GUI rather than knowledgeable about the underlying technology.</p>
+
+<p>If you must use a GUI tool, by all means do. However in the circumstances I mentioned, it wasn’t an option we wanted to offer.</p>
+
+<h4 id="terminal-configuration">Terminal Configuration</h4>
+
+<p>I’ve been enjoying <a href="http://www.iterm2.com/#/section/home">iTerm2</a> for a few small perks it offers, mainly the ability to have perfect representation of the <a href="http://ethanschoonover.com/solarized">Solarized Dark</a> theme.</p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>If there are any steps/instructions I’ve written that have been outdated by newer information/technology, are simply wrong, or could be explained better please feel free to contact me on Twitter where I’m <a href="https://www.twitter.com/burnedpixel">@burnedpixel</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>The stack for this project was <em>very</em> complicated and resulted in us using Vagrant and VirtualBox to literally get virtual instances of the dev environment going on each workstation.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>I had hosted the appropriate DMGs for the 10.7 and 10.8 tools on a local fileserver to speed up this step. Unfortunately the general public will have to go to Apple’s developer site, sign up for a free account, and download the tools from there.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Security settings adjustment to install Git:</p>
+
+      <ul>
+        <li><em>Go to Apple Menu &gt; System Preferences</em></li>
+        <li><em>Click Security &amp; Privacy</em></li>
+        <li><em>Click the lock icon in the bottom left and enter your account password</em></li>
+        <li><em>Select “Anywhere” for the “Allow applications downloaded from” setting</em></li>
+        <li><em>Close System Preferences</em></li>
+      </ul>
+      <p><a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>While I may have been exposed to making web pages by software like <a href="http://en.wikipedia.org/wiki/Claris_Home_Page">Claris Home Page</a> and <a href="http://en.wikipedia.org/wiki/Microsoft_FrontPage">Microsoft FrontPage</a>, I really learned to write HTML by hand from a software suite called <a href="http://scripting.com/stories/simmons/firstlookatgolivecyberstud.html">GoLive Cyberstudio</a>.
+  In what has now become a <a href="http://www.adobe.com/aboutadobe/invrelations/adobeandmacromedia.html">familiar process</a>, Adobe bought GoLive out so they could integrate Cyberstudio into their product lineup. In what has now also become familiar, Cyberstudio (simply rebranded as <a href="http://en.wikipedia.org/wiki/Golive">GoLive</a>) rarely got any updates and lived a deprecated existence until it’s death nearly 10 years later.<a href="#fnref:4" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Site!]]></title>
+    <link href="http://www.burnedpixel.com/blog/new-site/"/>
+    <updated>2013-03-18T15:25:00-07:00</updated>
+    <id>http://www.burnedpixel.com/blog/new-site</id>
+    <content type="html"><![CDATA[<p>I have been meaning to update my personal site for a while, but you know how that goes. I put a quick portfolio site up late last year using the popular Squarespace platform, but knew I’d eventually want to roll something custom.</p>
+
+<p>Well I finally buckled down and built something that will not only be quick and lightweight, but cheap to host and easy to maintain.</p>
+
+<!--More-->
+
+<p>I was looking for a platform that I could write and publish blog posts as well as host my portfolio without having to mess with something heavy and database dependent like Wordpress.</p>
+
+<p>I’ve been wanting to start writing for a few years, but especially for the past six months or so. In that time period I transformed the way I consume design and tech content, and as a result have been exposed to much more content originating from personal blogs.</p>
+
+<p>It was incredibly inspiring to discover that many experts<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> in tech and design have massive readerships despite not being part of a major website or publication network. I also found myself agreeing with their opinions quite often, but even when I didn’t I found myself wanting to write and share my opinion as well.</p>
+
+<p>I can’t guarantee that my opinions will always be original or even <em>right</em> all the time, but I intend for this new site to act as a chronicle of my thoughts on tech and design with some general life stuff sprinkled here and there. </p>
+
+<p>This site is made possible by a number of new-ish technologies which I’ll explain in depth in another post, but the three key components that made me choose<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> this workflow are:</p>
+
+<ul>
+  <li><a href="http://jekyllrb.com/">Jekyll</a>: An open source static site generator created by the co-founder of Github, Tom Preston-Werner.</li>
+  <li><a href="http://en.wikipedia.org/wiki/Markdown">Markdown</a>: A dead simple markup language. You’ve probably seen it used in the comments sections of Reddit, Stack Overflow, and elsewhere.</li>
+  <li><a href="http://pages.github.com/">Github Pages</a>: If you’re doing anything non-trivial in web and/or software development, you’re more than likely familiar with the source control technology <a href="http://en.wikipedia.org/wiki/Git_(software)">Git</a> and a popular hosting and management service for it called <a href="http://www.github.com">Github</a>. They offer free lightweight hosting to members that is — as far as I’ve read — reliable and quick.</li>
+</ul>
+
+<p>What this means is rather than having to use a web interface or an app, I can write my blog on basically any device and format it using simple markdown syntax. I’m actually sitting in bed typing this on my iPad.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
+
+<p>I’ve been accumulating topics that I’ve wanted to write about for the past few months and am excited by the prospect of being able to share my thoughts with friends, family, or really anyone who might find them interesting or inspiring.</p>
+
+<p>Anyway, thanks for visiting and reading this unnecessarily lengthy intro post, and feel free to follow me on Twitter where I’m <a href="https://twitter.com/burnedpixel">@burnedpixel</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>They’d probably prefer to be referred to as <em>enthusiasts</em>. I intend to write another post specifically highlighting many of the folks I’ve enjoyed reading recently. For now, here are the names of a few I whole heartedly recommend the writing (and work) of: </p>
+
+      <ul>
+        <li><a href="http://37signals.com/svn/writers/dhh">David Heinemeier Hansson (“DHH”)</a></li>
+        <li><a href="http://www.marco.org">Marco Arment</a></li>
+        <li><a href="http://www.codinghorror.com">Jeff Atwood</a></li>
+        <li><a href="http://www.hypercritical.co">John Siracusa</a></li>
+        <li><a href="http://37signals.com/svn/writers/jf">Jason Fried</a></li>
+      </ul>
+      <p><a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Shout-out to my friend <a href="https://twitter.com/zachgersh">Zach Gershman</a> who is a self-proclaimed Ruby fanatic. He suggested that I give the Jekyll + Github Pages workflow a look.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Okay, I’m sort of cheating with a bluetooth keyboard. It’s the little aluminum Apple one which I have a love-hate relationship with…ugh that’s a topic for another post as well. Adios!<a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Eco-Friendly Data Center]]></title>
+    <link href="http://www.burnedpixel.com/blog/the-eco-friendly-data-center/"/>
+    <updated>2013-02-22T00:00:00-08:00</updated>
+    <id>http://www.burnedpixel.com/blog/the-eco-friendly-data-center</id>
+    <content type="html"><![CDATA[<p>We live in a world where performance is measured in milliseconds (nanoseconds even), gigahertz, megawatts, teraflops and other metrics both physical and virtual. </p>
+
+<p>To say that technology is improving at a blistering pace would be a gross understatement. Every last decimal point counts, and cost is always of the utmost importance.</p>
+
+<!-- More -->
+
+<p>Data centers are no exception to this trend. Racks and racks of top-shelf hardware run 24/7/365, fans screaming at 10,000 RPM and CPUs sizzling.</p>
+
+<p>This is why I was refreshingly surprised to see Facebook, one of the premier tech companies make a move somewhat incongruent with today’s trends. Facebook certainly puts plenty of time and effort into making their products perform well, have frictionless user experiences, and cost as little as possible (free). </p>
+
+<p>However, <a href="http://www.oregonlive.com/silicon-forest/index.ssf/2013/02/facebook_plans_cold_storage_fo.html">this week</a> they revealed that with the introduction of their new 3 exabyte (3.2 billion gigabytes) “cold storage data facility” they are going to accept <em>slightly</em> slower performance in the interest of being more eco-friendly and cost-effective.</p>
+
+<p>Specifically, they’re going to automatically transfer many older user-uploaded photos to this new facility which will cost 1/3 less to operate while being five times more energy efficient than typical “hot storage” data centers. The key difference for this data center is that most of its servers will be idling or “asleep.”</p>
+
+<p>This decision was made in part due to data suggesting that of the 240 billion photos and videos that have been uploaded to Facebook, most traffic is directed towards just 8% of them.</p>
+
+<p>While end users will barely notice a difference—we’re likely talking hundreds of milliseconds at worst—this could have a profound effect on how other large corporations approach product performance vs. environmental impact decisions.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nest Thermostat Installation]]></title>
+    <link href="http://www.burnedpixel.com/blog/nest-thermostat-installation/"/>
+    <updated>2013-02-18T00:00:00-08:00</updated>
+    <id>http://www.burnedpixel.com/blog/nest-thermostat-installation</id>
+    <content type="html"><![CDATA[<p>I purchased a <a href="http://nest.com/">Nest Learning Thermostat</a> over the holidays for my parents to try out. I figured that the heating and cooling of their house would be a situation ripe for optimizing. Nothing says “Merry Christmas!” like “I just saved you $78.54 on your DWP bill.” It all sounded good in theory.</p>
+
+<!--more-->
+
+<p>My folks politely declined.</p>
+
+<p>Being the gadget person that I am, I decided to try the Nest out for myself. I assumed my apartment’s HVAC setup would be a cakewalk compared to the multi-unit multi-thermostat setup at my parents’ house. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p><a href="http://www.burnedpixel.com/uploads/2013/02/old_thermostat.jpg"><img class="right" src="http://www.burnedpixel.com/uploads/2013/02/old_thermostat.jpg" width="200" height="200" /></a></p>
+
+<p>Not knowing a single thing about how thermostats or HVAC units worked, I consulted Nest’s online compatibility tool to see if it would work for my situation. After getting the front panel of my existing thermostat off, I was presented with a row of wires and terminals.</p>
+
+<p>After entering the appropriate wires into their tool, I was informed that both the 2nd Generation Nest (what I would be installing) as well as the 1st Generation Nest were compatible with my setup. They even provided me with a <a href="http://www.burnedpixel.com/uploads/2013/02/wiring_diagram.jpg">nifty wiring diagram</a> (more on that later).</p>
+
+<p>With the green light, I unpacked everything from the Nest box. The folks at Nest are <a href="http://mashable.com/2011/12/15/nest-labs-interview/">big Apple fans</a>, and it’s no surprise that this product is both produced and packaged in a similar style to Apple’s. Then again, the Nest is $250 so it makes sense that they would want to position their product and brand as premium. </p>
+
+<p>With the fuses switched off I got to work, careful not to damage the old thermostat in case this mission didn’t pan out. The backplate provided with the nest fastened securely to the wall with the screws they provided and getting the wires in their respective terminals was easy.</p>
+
+<p>After attaching the face of the unit onto the base and flipping the fuses back on, I couldn’t wait to see this thing in action. What seemed like 10 or 15 minutes went by as the Nest updated itself multiple times once it connected to my Wi-Fi network.</p>
+
+<p>I went through a fair number of configuration steps, and then moved on to testing out the heating and cooling functionality. On “Cool” I heard the fan kick on, but the air was decidedly luke-warm. On “Heat” I got nada, zilch, nothing.</p>
+
+<p>Uh oh.</p>
+
+<p>The Nest website has a fair amount of canned support topics, however I had connected and configured everything to their specs so I was directed to phone support.</p>
+
+<p>The CSR I spoke with was very polite and helpful, however after 15 minutes of adjusting the settings and wiring, he concluded that my system was incompatible with Nest.</p>
+
+<p>Disappointed I began removing the Nest from the wall and replacing my original thermostat. After ensuring everything was in working order once again, I took to the interwebs hoping to find some last-ditch solace.</p>
+
+<p>I started a <a href="http://www.thermostatforums.com/showthread.php?312-Nest-2nd-Gen-not-working-introduce-previously-unused-brown-wire">thread</a> on thermostatforums.com and some nice folks there helped me diagnose my issue. As it turns out, one of the wiring adjustments the Nest CSR had me go through was correct! However, the Nest (for unknown reasons) needs to be fully reset to truly absorb certain wiring changes. In retrospect, I’m surprised that the Nest CSR was unaware of this peculiarity.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/2013/02/wires.jpg"><img class="left" src="http://www.burnedpixel.com/uploads/2013/02/wires.jpg" width="300" height="300" /></a>
+<a href="http://www.burnedpixel.com/uploads/2013/02/nest_app.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/2013/02/nest_app.jpg" width="175" height="175" /></a></p>
+
+<p>I had finally gotten the Nest to pump out hot and cold air, and connected it with an account I created on Nest’s iOS app.</p>
+
+<p>This meant I could now turn on the A/C or heat from bed. Or work. Or the car. Or (you know where).</p>
+
+<p>It’s only been a day so I can’t comment on some of the smarter features that allow the Nest to intelligently control my system. It simply hasn’t had enough time to learn yet. However, I have some initial observations and impressions:</p>
+
+<ul>
+  <li>It looks great on the wall. The stainless bezel looks modern and sophisticated, and the screen is bright and crisp.</li>
+  <li>While interacting with the dial gives the impression that you’re touching something “high quality”, using it to accurately navigate the circular menus requires a little finesse. </li>
+  <li>The dial metaphor for selecting a temperature is very straightforward, however I have to wonder if showing a zoomed in arc-length would be more useful for indicating how close the current temperature is to your desired temperature.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
+  <li>Frustratingly, the Nest iOS app and web app have additional information not available on the Nest itself, including outside temp and humidity.</li>
+  <li>Adjusting the temperature and mode from the web or iOS devices is <strong><em>really</em></strong> cool.</li>
+  <li>In theory, the <a href="http://support-assets.nest.com/images/000001200/nest-time-to-temp.png">leaf icon</a> (which indicates you’ve set the thermostat to an energy conscious temperature) should save me money. Let’s see if I hunt for it like Prius hypermilers.</li>
+  <li>I can’t even begin to imagine all of the wiring and system permutations the Nest team has to account for. That said, I was a bit put off by the fact that the support staff told me my particular setup was incompatible with Nest, while an HVAC expert on a discussion forum was able to solve my problem.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></li>
+</ul>
+
+<p>Is this thing worth $250? I can’t begin to asses that just yet. I can’t wait to see how a lot of these smart features pan out, particularly <a href="http://support.nest.com/article/What-is-Airwave">Airwave</a>. This feature allows the nest to turn off the A/C unit and simply run the fan for cooling under certain circumstances.</p>
+
+<p>Once my Nest has adequately learned the parameters of our apartment and our habits, and I have a few DWP bills in hand, I’ll report back.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>In retrospect, I suppose a proper gift would have been <em>two</em> Nests for my folks. Having one smart thermostat and one “dumb” thermostat would probably be a lot like having a modern washer but an ancient dryer.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>This may be a moot point however. From what I understand, once the Nest learns the size of your home and the relative strength/efficiency of your HVAC unit it will begin displaying time-based estimates for how long it will take to reach your desired temperature.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Ironically by resetting the unit to factory defaults.<a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[About Me]]></title>
+    <link href="http://www.burnedpixel.com/about"/>
+    <updated>2013-02-01T00:00:00-08:00</updated>
+    <id>http://www.burnedpixel.com/about</id>
+    <content type="html"><![CDATA[<h2 id="short-version">Short version</h2>
+
+<h4 id="who-i-am">Who I am</h4>
+<ul>
+  <li>My name is Chris Chernoff</li>
+  <li>I live in sunny Los Angeles, California</li>
+  <li>I’m very passionate about technology and design</li>
+  <li>I’m also quite enthusiastic about
+    <ul>
+      <li><a href="http://en.wikipedia.org/wiki/Formula_1">Formula 1</a></li>
+      <li><a href="http://en.wikipedia.org/wiki/Nascar">NASCAR</a></li>
+      <li><a href="http://en.wikipedia.org/wiki/NFL">NFL</a></li>
+      <li>Snowboarding</li>
+      <li>Mexican food</li>
+      <li>Metal music</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="what-i-do">What I do</h4>
+<ul>
+  <li>User Experience Design
+    <ul>
+      <li>Interaction design</li>
+      <li>Information architecture</li>
+      <li>User Interface design</li>
+      <li>User research</li>
+      <li>Rapid prototyping</li>
+      <li>Content strategy</li>
+      <li>Production/product management</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="interested-in-hiring-or-contracting-me">Interested in hiring or contracting me?</h4>
+<p>I’m currently looking to work on a new project, please feel free to contact me at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#104;&#114;&#105;&#115;&#064;&#098;&#117;&#114;&#110;&#101;&#100;&#112;&#105;&#120;&#101;&#108;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#098;&#117;&#114;&#110;&#101;&#100;&#112;&#105;&#120;&#101;&#108;&#046;&#099;&#111;&#109;</a> or on <a href="http://www.linkedin.com/in/chrischernoff/">LinkedIn</a>.</p>
+
+<h4 id="social-media">Social Media</h4>
+
+<table>
+  <tr>
+    <td><a class="no_underline" href="http://www.twitter.com/burnedpixel"><img src="http://www.burnedpixel.com/images/twitter_circle.svg" /></a></td>
+    <td><a class="no_underline" href="http://instagram.com/burnedpixl"><img src="http://www.burnedpixel.com/images/instagram_circle.svg" /></a></td>
+    <td><a class="no_underline" href="http://open.spotify.com/user/burnedpixel"><img src="http://www.burnedpixel.com/images/spotify_circle.svg" /></a></td>
+    <td><a class="no_underline" href="http://burned.yelp.com"><img src="http://www.burnedpixel.com/images/yelp_circle.svg" width="25" height="25" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.twitter.com/burnedpixel">Twitter</a></td>
+    <td><a href="http://instagram.com/burnedpixl">Instagram</a></td>
+    <td><a href="http://open.spotify.com/user/burnedpixel">Spotify</a></td>
+    <td><a href="http://burned.yelp.com">Yelp</a></td>
+  </tr>
+</table>
+
+<hr />
+
+<h2 id="long-version">Long Version</h2>
+
+<h4 id="i-love-technology">I love technology.</h4>
+
+<p>I really do. I’ve always been fascinated by how things work, as well as the problem solving process that one goes through when things don’t work.</p>
+
+<p>Growing up I was fortunate to have gadgets like a GameBoy, portable CD players, a VCR, stereo equipment, radio controlled cars, heck even a <a href="http://en.wikipedia.org/wiki/Tamagotchi">Tamagotchi</a>.</p>
+
+<p>Each item had a unique enjoyable experience and a collection of quirks that came along with it. As much as I loved listening to music or playing games, often times a good portion of my enjoyment came from figuring out how to fix things when they inevitably broke.</p>
+
+<p>When we got our <a href="http://en.wikipedia.org/wiki/Power_Macintosh_6200">first computer</a> at home, it represented a quantum shift in my life. I had already mastered the Apple IIs in the computer lab at school, but a <em>Macintosh</em> was a totally different ball-game<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+
+<p>The level of complexity and flexibility provided by computer software encouraged and inspired me to acquire all sorts of knowledge and skills at a rapid pace. I taught myself how to create and host web pages<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>, how to use tools like Photoshop and Quark Xpress, how to set up networks, and many other things that now seem second nature to me.</p>
+
+<h4 id="i-also-love-design">I also love design.</h4>
+
+<p>One huge benefit computers provided me was the ability to express myself creatively. I’ve never been particularly skilled at drawing or painting, however with digital illustration and photo manipulation tools at my fingertips a whole new world had been opened to me.</p>
+
+<p>As time went on, I became acutely aware of the typography, composition, form, and functionality of everything I encountered and interacted with and used them as inspiration for creating works of my own.</p>
+
+<p>I continued learning and improving my process, and went on to study design at UCLA. Since then, I’ve been fortunate to have worked at a variety of companies that have pushed the envelope for design and technology in their respective industries.</p>
+
+<h4 id="basically-im-working-my-dream-job">Basically, I’m working my dream job.</h4>
+
+<p>This ultimately guided me towards a line of work that fits my interests and skill-set very closely: User Experience Design.</p>
+
+<p>As a UX designer, I enjoy distilling complex problems and scenarios into experiences that meet user needs and business goals. </p>
+
+<p>I channel my critical thinking and design sensibilities through a number of disciplines including interaction design, information architecture, user interface design, user research, rapid prototyping, content strategy, and production/product management.</p>
+
+<p>My knowledge of programming and markup languages as well as my endless desire to keep up with emerging technologies allow me to collaborate effectively with engineering teams to make well informed practical design decisions.</p>
+
+<p>Ultimately, what drives me is the hope that my work might contribute — even in incredibly small ways — towards users’ lives being more convenient and enjoyable.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This was <em>way</em> before consumers viewed Macs (and Apple products in general) as viable or even worthwhile for daily use. I would go on to spend roughly the next 10 years of my life being chastised simply because my computer couldn’t run Counter-Strike.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Shout-out to <a href="http://en.wikipedia.org/wiki/GeoCities">Geocities</a> and <a href="http://en.wikipedia.org/wiki/Angelfire">Angelfire</a>!<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Call of Duty: ELITE]]></title>
+    <link href="http://www.burnedpixel.com/work/call-of-duty-elite"/>
+    <updated>2013-01-10T00:00:00-08:00</updated>
+    <id>http://www.burnedpixel.com/work/call-of-duty-elite</id>
+    <content type="html"><![CDATA[<p>Call of Duty has become the highest grossing entertainment franchise of all time. Toppling other games like Halo and feature films like Avatar and The Dark Knight, Call of Duty’s annual release cycle and user base of nearly 30 million have allowed it to amass an unparalleled following in the game industry.</p>
+
+<!--more-->
+
+<hr />
+
+<h4 id="background">Background</h4>
+
+<p>In 2010 Call of Duty’s publisher Activision started the Call of Duty: Elite project with the goal of allowing users to engage with the game’s vast arrays of data, participate in competitions, and ultimately foster an online community for their mega-series.</p>
+
+<p>As one of the central UX designers on the project, I was tasked with creating an online service that would have to accommodate and balance a formidable set of challenges: mountains of data, engaging our sophisticated and diverse user base, and massive scale.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/boxes.jpg"><img src="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/boxes.jpg" /></a></p>
+
+<hr />
+
+<h4 id="user-research">User Research</h4>
+
+<p>There is a wide range of players with different skill levels, play styles, and social objectives in Call of Duty. An important part of the research phase for this project was establishing what motivated players to keep coming back for more, and what factors were most important to these different segments of players. Striking the balance between maintaining the interest of the hardcore and appealing to newcomers was critical.</p>
+
+<p>Call of Duty is not an easy game to pick up and learn. To help users acclimate themselves, the foundation of multiplayer gameplay revolves around specific tangible goals such as, “Get 10 kills with this gun, and you’ll level up.” </p>
+
+<p>This completionist focus can carry many users through weeks or even months of play time. However, leveling up and unlocking rewards only takes players so far.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/why.jpg"><img src="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/why.jpg" /></a></p>
+
+<p>Players reach a crossroads where their playtime starts tailing off, or they begin creating their own sets of challenges and goals to keep the game interesting and rewarding for them. It’s at this point where you can differentiate between traditional completionist gamers, and players who thirst for more.</p>
+
+<p>This second group of players is higher in skill, plays for more extended periods of time, and contains some of Call of Duty’s most die-hard fans. However, eventually they too reach a skill or satisfaction plateau and once again begin to grow tired of the game. </p>
+
+<p>Once players reach a certain level of individual mastery, they often do one of two things: form or join a group to achieve a collective success and help improve other players, or try to get widespread recognition for their skills and accomplishments via social media to satisfy. Both of these behaviors strive for a concept we called “group mastery.”</p>
+
+<p>Essentially once players lose interest in the way the game is teaching <em>them</em> how to play, they decide to improve by teaching directly (in groups) and/or indirectly (YouTube videos, strategy websites, etc).</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/meaningful.jpg"><img src="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/meaningful.jpg" /></a></p>
+
+<hr />
+
+<h4 id="engaging-and-challenging-a-competitive-user-base">Engaging and challenging a competitive user base</h4>
+
+<p>I worked with the rest of the design team to build Elite around satisfying these user needs. At the heart of the service is a set of statistics and analysis called the Player Card. Here players can get information on their performance trends, as well as research their strengths and weaknesses. </p>
+
+<p>This is a “ground floor” of the service that users of all skill levels use. There is also an almost encyclopedic section of the site that helps them understand terminology and learn to play with weapons, explore new maps modes, and other gameplay features.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/career_summary.jpg"><img class="left" src="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/career_summary.jpg" width="200" height="200" /></a>
+<a href="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/recent_matches.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/recent_matches.jpg" width="200" height="200" /></a></p>
+
+<p>To challenge players, I created a system of Elite-exclusive competitions that gave them a chance to win digital and tangible prizes. Players in the “individual mastery” phase of their Call of Duty careers were particularly intrigued by these competitions, as it allowed them to hone in on objectives that other skilled players were gunning for. </p>
+
+<p>Up until this feature’s introduction, all skill metrics shown in Call of Duty were inclusive of the entire population and without the context of a specific objective.</p>
+
+<p>It was quite exciting to flip the switch and see millions of players across the world fight for iPads, Call of Duty branded skateboard decks and backpacks, and even Jeeps! In addition to real prizes, each competition would award digital badges to its successful participants. </p>
+
+<p>The spoils of these competitions, particularly the digital badges awarded to participants who finished in the upper percentiles, became coveted items in the community and left players yearning for more ways to compete.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/competitions.jpg"><img src="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/competitions.jpg" /></a></p>
+
+<hr />
+
+<h4 id="clans-encouraging-player-organization-and-collaboration">Clans: Encouraging player organization and collaboration</h4>
+
+<p>For decades gamers have teamed up into what are known as “clans” to not only play better in their games of choice, but for the camaraderie and friendships that spawn from them. Clans across the world create their own websites, set up chatrooms and times to play, and run their own tournaments and recruiting drives.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/clan_hq.jpg"><img src="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/clan_hq.jpg" /></a></p>
+
+<p>It only made sense to bolster this strong pre-existing concept by supporting it in Call of Duty Elite. Clans were the key to Elite encouraging the player engagement concept I mentioned earlier, group mastery.</p>
+
+<p>As lead designer on clans, I designed a wide range of features that complemented in-game functionality and added meaningful group-based objectives that individual clan members could work towards for the greater good of their clan. </p>
+
+<p>I wanted to alleviate the organizational and social burden clans had of setting up their own websites, and encourage them to use Elite as their online headquarters. On their “Clan HQ”, Clan members could communicate among themselves and other players in the community to work on game strategy and build tight relationships and intense rivalries.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/clan_landing.jpg"><img src="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/clan_landing.jpg" /></a></p>
+
+<p>Some clans start as groups of personal friends, but many form organically from chance meetings in-game. However, with tens of millions of users Call of Duty multiplayer can be a large and intimidating place. </p>
+
+<p>Knowing this, I developed a few features that made it easier to find clans for users with fewer friends or contacts in the Call of Duty community. Users could peruse clans that friends and acquaintances were in, as well as relevant clans in the community with similar interests and skill levels. </p>
+
+<p>Additionally, players seeking clans and clans seeking players could head over to clan recruitment forums and match up.</p>
+
+<p>Once established on Elite, clans could participate in clan-specific competitions that would not only reward each member with items to use in game, but reward the clan itself and encourage teamwork.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/clan_challenges.jpg"><img src="http://www.burnedpixel.com/uploads/work/call-of-duty-elite/clan_challenges.jpg" /></a></p>
+
+<hr />
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p>The ultimate goal of Call of Duty Elite is to improve and expand each player’s gaming experience throughout the Call of Duty series. </p>
+
+<p>Elite achieves this by providing rich data, meaningful competitions and goals, and most importantly by encouraging and simplifying the process for gamers to play together. </p>
+
+<p>With over 12 million registered users and two million clans to date and hundreds of thousands of players participating in competitions every day, Elite has written the book on what a game franchise needs to do in order to take user engagement to the next level.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Logicbuy]]></title>
+    <link href="http://www.burnedpixel.com/work/logicbuy"/>
+    <updated>2013-01-09T00:00:00-08:00</updated>
+    <id>http://www.burnedpixel.com/work/logicbuy</id>
+    <content type="html"><![CDATA[<p>LogicBUY is a deals and coupons community that prides itself on saving users as much money as possible. I was hired to take part in a revamp of their website to bolster user engagement, improve the quality and consistency of their listings, and to simplify the process for users to save money while shopping.</p>
+
+<!--more-->
+
+<hr />
+
+<h4 id="background">Background</h4>
+
+<p>LogicBUY had accumulated a substantial amount of content, however it was struggling to keep users engaged and convert new users into returning users.</p>
+
+<p>It became clear that LogicBUY’s most successful competitors were those that used a careful blend of legibility, brevity, and speed. While some sites displayed more information for deals and coupons than others, generally speaking the ones that allowed users to more quickly and efficiently digest their content were the most successful.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/logicbuy/competitors.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/logicbuy/competitors.jpg" /></a></p>
+
+<hr />
+
+<h4 id="user-research">User Research</h4>
+
+<p>LogicBUY’s user base is diverse across levels of engagement, but generally the dividing characteristic is: passive or active. </p>
+
+<p>Passive users visit LogicBUY either because they are shopping on a specific site and want to find discounts for it, or they’re just browsing for good deals in general.</p>
+
+<p>In addition to casually browsing, active users contribute to LogicBUY by submitting deal and coupons to their inventory. In exchange, these users get satisfaction that they’ve saved other folks money through ratings, comments, and votes.</p>
+
+<p>It became clear that a successful strategy for LogicBUY would have to balance these user groups by presenting data consistently and efficiently, while displaying credit and appreciation where it’s due.</p>
+
+<hr />
+
+<h4 id="speed-is-of-the-essence">Speed is of the essence</h4>
+
+<p>I could spend all day looking for deals, but most people aren’t like that.</p>
+
+<p>Instead, I wanted to make it easy for people to find what they were looking for as quickly as possible. The navigation system for the site quickly indicated to users the primary categories they could expect to find deals and coupons for on LogicBUY. </p>
+
+<p>A prominent search tool also allowed users to quickly hone in on a specific item or store.</p>
+
+<p>The heart of this website are the thousands of deal and coupon listings. In past iterations of the site, this information was muddled and not easy to browse through. Therefore, special thought was given to the deal “unit” this information was organized into. At a glance, each listing had to be interesting and informative, but not be overly congested with unnecessary content.</p>
+
+<hr />
+
+<h4 id="multiple-viewing-modes-to-cater-to-user-needs">Multiple viewing modes to cater to user needs</h4>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/logicbuy/grid_items.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/logicbuy/grid_items.jpg" /></a></p>
+
+<p>A new grid view provided a visually oriented way to browse deals on the site. Users who preferred to “window shop” could do so quickly by consuming a large number of deal photos.</p>
+
+<p>Upon hover, a deal in the grid could be expanded to reveal secondary deal details. </p>
+
+<p>For users who preferred a more systematic and data-driven browsing method, the list view provided entries that were streamlined to provide maximum scanabilty at first glance. </p>
+
+<p>If users were intrigued by a deal, they were be able to expand it to discover additional details quickly without having to change pages.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/logicbuy/list_items.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/logicbuy/list_items.jpg" /></a></p>
+
+<hr />
+
+<h4 id="allow-users-to-quickly-and-easily-contribute">Allow users to quickly and easily contribute</h4>
+
+<p>There are a lot of key pieces of information that go into a good deal, and it was important that the listings on LogicBUY maintained a consistent presentation of this data.</p>
+
+<p>To streamline this process for users, I introduced a two-step process that would automatically retrieve most of the important data for users.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/logicbuy/deal_submit.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/logicbuy/deal_submit.jpg" /></a></p>
+
+<p>Step one is as simple as pasting the URL to the deal you found. LogicBUY would instantaneously visit this URL, grab the pertinent information, and have it ready for you to review in step two. </p>
+
+<p>After a quick once over and minor adjustments, your deal was ready for the public and could begin saving people money!</p>
+
+<hr />
+
+<h4 id="community-content-curation">Community content curation</h4>
+
+<p>Due to the fact that a “good” deal is often relative, another key area of the site that was addressed was how users affected content on the site. </p>
+
+<p>By introducing voting, commenting, and tagging tools, LogicBUY’s dedicated community could self-curate many of the deals and coupons that would come about during each day.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/logicbuy/comments.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/logicbuy/comments.jpg" /></a></p>
+
+<hr />
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/logicbuy/deal_homepage.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/logicbuy/deal_homepage.jpg" /></a></p>
+
+<p>My involvement with LogicBUY continued through three phases of feature sets and deployment. As a result of the hard work put into this project, LogicBUY has seen a significant statistical increase in nearly every measurable analytics category. </p>
+
+<p>Their daily unique visitors tripled and time on site more than doubled. Most importantly, user registration and user submissions increased dramatically due to the more streamlined processes. LogicBUY also received numerous accolades in the deal community for their improved experience, ultimately beating out industry mainstays such as DealNews, SlickDeals, and FatWallet.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mitsubishi]]></title>
+    <link href="http://www.burnedpixel.com/work/mitsubishi"/>
+    <updated>2013-01-08T00:00:00-08:00</updated>
+    <id>http://www.burnedpixel.com/work/mitsubishi</id>
+    <content type="html"><![CDATA[<p>Mitsubishi build reliable well performing cars and SUVs, but in recent years have struggled to retain a healthy portion of the US auto market.</p>
+
+<p>The goal was to educate potential car buyers on Mitsubishi’s product lineup and allow them to outfit a vehicle that was both practical and affordable.</p>
+
+<!--more-->
+
+<hr />
+
+<h4 id="background">Background</h4>
+
+<p>Mitsubishi’s most popular vehicle of the past decade has without a doubt been their Lancer line. Offering a fantastic value for its price, it had carved out a niche among value minded buyers who enjoyed spirited driving. </p>
+
+<p>The high performance Evolution (Evo) model of the line acted as a halo car of sorts, as it was often featured prominently in racing series and was a favorite among younger demographics.</p>
+
+<p>However, as climate changed in the auto industry and many consumers began purchasing SUV/Crossover hybrids, Mitsubishi found itself without a horse in the race.</p>
+
+<p>They introduced a new model to compete in this space, the Outlander, and wanted to have a revamped online presence to coincide with its introduction.</p>
+
+<hr />
+
+<h4 id="user-research">User Research</h4>
+
+<p>I conducted user interviews to get a handle on what some of the problems with the existing Mitsubishi site were. In addition to my own observations and competitive research, a few common friction points emerged.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/mitsubishi/testing.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/mitsubishi/testing.jpg" /></a></p>
+
+<p>The first problem most prospective car buyers encountered was that they simply didn’t know much about the product lineup or what type of vehicle suits them best.</p>
+
+<p>Arrays of technical features and jargon further clouded their discovery and decision-making processes.</p>
+
+<p>Even when users were able to identify a suitable vehicle for themselves, nebulous financial terms and details perpetuated the mistrust that users hold of auto manufacturers.</p>
+
+<hr />
+
+<h4 id="beginning-a-relationship-with-straightforward-presentation">Beginning a relationship with straightforward presentation</h4>
+
+<p>As a first step towards users potentially choosing a Mitsubishi as their next vehicle, the vehicle detail pages were revamped to convey the context and strengths of each vehicle. </p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/mitsubishi/car_detail.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/mitsubishi/car_detail.jpg" /></a></p>
+
+<p>The auto industry tends to use complicated terminology “Double Wishbone Suspension” that confuses and alienates potential customers.</p>
+
+<p>With Mitsubishi, we wanted to ensure that vehicle features were clearly highlighted and explained.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/mitsubishi/safety_1.jpg"><img class="left" src="http://www.burnedpixel.com/uploads/work/mitsubishi/safety_1.jpg" width="200" height="200" /></a></p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/mitsubishi/safety_2.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/mitsubishi/safety_2.jpg" width="200" height="200" /></a></p>
+
+<hr />
+
+<h4 id="building-a-practical-vehicle-in-your-budget">Building a practical vehicle in your budget</h4>
+
+<p>A staple of all car manufacturer websites is a build and price tool. By being able to appoint a vehicle with only the features they need, users are able to construct a clear idea of how purchasing or leasing will cost them on a monthly basis.</p>
+
+<p>The build and price tool needed one thing: transparency. By pigeonholing key information about the cars, the current tool lacked any sense of honesty or completion.</p>
+
+<p>The revamped build tool allowed users to filter the vehicle lineup by a variety of parameters. If they still had difficulty deciding on a model, colors, options, and other details, the site helped them pose questions to their friends via social media on what car or color to choose.</p>
+
+<p>I added a receipt system to keep track of what features and options were being added to the car, and how much each item cost. Additionally, I added a progress tracker to indicate how far along in the building process a user was. </p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/mitsubishi/build_2.jpg"><img src="http://www.burnedpixel.com/uploads/work/mitsubishi/build_2.jpg" /></a></p>
+
+<p>I studied the visual language of e-commerce checkout processes and decided that by adding a step-by-step tracker at the top, users would gain a sense of accomplishment for completing the build process.
+A continuously updating estimated monthly payment module was another feature that added a critical point of reference. Unless they were paying in cash, nearly all users wanted to know what a car will cost monthly.</p>
+
+<p>Finally, I allowed users to click on any feature, option, or package throughout the process so they could easily discover why they might want or not want a particular option. </p>
+
+<p>Many users have a basic knowledge cars and their underlying technologies. However testing showed that when presented with a list of options to choose from, users who knew less about cars gave up because they did not know what certain things were. </p>
+
+<p>By including descriptions of all the technology on the car, more users could confidently continue on.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/mitsubishi/build_4.jpg"><img src="http://www.burnedpixel.com/uploads/work/mitsubishi/build_4.jpg" /></a></p>
+
+<hr />
+
+<h4 id="welcoming-owners-into-the-fold">Welcoming owners into the fold</h4>
+
+<p>Another area of the Mitsubishi site that we wanted to improve was the owners section. While car companies insist on “welcoming you into the family” right as you’re about to sign on the dotted line, you rarely feel the love after you’ve been thrown the keys. </p>
+
+<p>Whether you’re just trying to find out where your oil cap is, or where to go for your next service, it was clear that Mitsubishi needed to beef up their owners section.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/mitsubishi/owners.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/mitsubishi/owners.jpg" /></a></p>
+
+<p>In addition to vehicle specific information, the owners section was also intended to help facilitate conversations and meetings between owners. </p>
+
+<p>Every year millions of people sign on to car forums, go to auto expos, and head to the track. Mitsubishi should be the collecting point for many of these people who share the same interests. </p>
+
+<p>By leveraging vehicle and location specific information, the site populated a calendar of events to suit each owners needs, and remind them of when they are on their mobile phone.</p>
+
+<hr />
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p>We walked the same test participants as the beginning of the project through the new interface. The general sentiments that carried throughout the sessions were that subjects felt less overwhelmed by confusing terminology and better informed to identify a vehicle for their needs.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/mitsubishi/builder.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/mitsubishi/builder.jpg" /></a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nexen]]></title>
+    <link href="http://www.burnedpixel.com/work/nexen"/>
+    <updated>2013-01-07T00:00:00-08:00</updated>
+    <id>http://www.burnedpixel.com/work/nexen</id>
+    <content type="html"><![CDATA[<p>Nexen is the best tire company you’ve never heard of. They make great tires for a fraction of the cost of their American, European, and Japanese competitors, while maintaining comparable performance and reliability. </p>
+
+<p>This project coincided with an aggressive marketing campaign to boost their stateside awareness and brand perception.</p>
+
+<!--more-->
+
+<hr />
+
+<h4 id="background">Background</h4>
+
+<p>Their existing online catalog was difficult to navigate and lacked clear-cut descriptions for their products.</p>
+
+<p>Nexen needed to win over potential customers by making it easy for them to understand the strengths and intended applications of their different product lines.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/nexen/competitors.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/nexen/competitors.jpg" /></a></p>
+
+<hr />
+
+<h4 id="context-for-tire-application">Context for tire application</h4>
+
+<p>The first order of business was to organize different families of tires together and display them in settings that would easily convey their strengths.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/nexen/winter_tires.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/nexen/winter_tires.jpg" /></a></p>
+
+<hr />
+
+<h4 id="simplified-comparison-metrics">Simplified comparison metrics</h4>
+
+<p>While tires appear to be simple rings of rubber, there’s actually quite a bit of engineering that goes into them.  UTQG, Load Index and Speed Rating are just a few of the data parameters that tire companies use to objectively judge performance. </p>
+
+<p>Where general consumers are concerned, this data in its raw form is rarely useful. It would have been foolish to simply discard all of these specs because naturally they provide a basis of comparison. </p>
+
+<p>However, I knew that for Nexen to be able to effectively communicate to consumers, they needed something that explained what their products did in basic terms.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/nexen/tire_detail.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/nexen/tire_detail.jpg" /></a></p>
+
+<p>By adding creating benchmarks based on this data, all of the tires on Nexen’s site could quickly be analyzed and compared with each other. Users could assess a tire based on their priorities (e.g. Cost and Treadwear) and not have to bother themselves with abstract data.</p>
+
+<p>Technology badges helped indicate what tasks each tire model did best. Whether it’s ride quality or grip level, Nexen puts just as much research into their tires as other manufacturers. To explain how certain technologies help a tire perform better under different conditions, video featurettes were added to help potential buyers make the most educated decisions.</p>
+
+<hr />
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p>All of these changes added up to a site that not only encouraged exploration, but informed potential tire shoppers in a clear and concise manner along the way.</p>
+
+<p><a href="http://www.burnedpixel.com/uploads/work/nexen/homepage.jpg"><img class="center" src="http://www.burnedpixel.com/uploads/work/nexen/homepage.jpg" /></a></p>
+]]></content>
+  </entry>
+  
+</feed>
