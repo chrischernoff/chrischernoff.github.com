@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hidden | burnedpixel]]></title>
   <link href="http://www.burnedpixel.com/blog/categories/hidden/atom.xml" rel="self"/>
   <link href="http://www.burnedpixel.com/"/>
-  <updated>2014-08-17T08:37:26-07:00</updated>
+  <updated>2014-08-30T18:20:51-07:00</updated>
   <id>http://www.burnedpixel.com/</id>
   <author>
     <name><![CDATA[Chris Chernoff]]></name>
@@ -39,12 +39,14 @@
 
 <h4 id="what-i-do">What I do</h4>
 <ul>
-  <li>User Experience Design
+  <li>User Experience Design/Development
     <ul>
+      <li>Product direction</li>
       <li>Interaction design</li>
       <li>Information architecture</li>
       <li>User Interface design</li>
       <li>User research</li>
+      <li>HTML/CSS/Javascript</li>
       <li>Rapid prototyping</li>
       <li>Content strategy</li>
       <li>Production/product management</li>
@@ -52,23 +54,23 @@
   </li>
 </ul>
 
-<h4 id="interested-in-hiring-or-contracting-me">Interested in hiring or contracting me?</h4>
-<p>I’m currently looking to work on a new project, please feel free to contact me at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#104;&#114;&#105;&#115;&#064;&#098;&#117;&#114;&#110;&#101;&#100;&#112;&#105;&#120;&#101;&#108;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#098;&#117;&#114;&#110;&#101;&#100;&#112;&#105;&#120;&#101;&#108;&#046;&#099;&#111;&#109;</a> or on <a href="http://www.linkedin.com/in/chrischernoff/">LinkedIn</a>.</p>
+<h4 id="interested-in-hiring-me">Interested in hiring me?</h4>
+<p>I’m always open to hearing about new opportunities, please feel free to contact me at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#104;&#114;&#105;&#115;&#064;&#098;&#117;&#114;&#110;&#101;&#100;&#112;&#105;&#120;&#101;&#108;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#098;&#117;&#114;&#110;&#101;&#100;&#112;&#105;&#120;&#101;&#108;&#046;&#099;&#111;&#109;</a> or on <a href="http://www.linkedin.com/in/chrischernoff/">LinkedIn</a>.</p>
 
 <h4 id="social-media">Social Media</h4>
 
 <table>
   <tr>
     <td><a class="no_underline" href="http://www.twitter.com/burnedpixel"><img src="http://www.burnedpixel.com/images/twitter_circle.svg" /></a></td>
+    <td><a class="no_underline" href="https://github.com/chrischernoff"><img src="http://www.burnedpixel.com/images/github_circle.svg" /></a></td>
     <td><a class="no_underline" href="http://instagram.com/burnedpixl"><img src="http://www.burnedpixel.com/images/instagram_circle.svg" /></a></td>
     <td><a class="no_underline" href="http://open.spotify.com/user/burnedpixel"><img src="http://www.burnedpixel.com/images/spotify_circle.svg" /></a></td>
-    <td><a class="no_underline" href="http://burned.yelp.com"><img src="http://www.burnedpixel.com/images/yelp_circle.svg" width="25" height="25" /></a></td>
   </tr>
   <tr>
     <td><a href="http://www.twitter.com/burnedpixel">Twitter</a></td>
+    <td><a href="https://github.com/chrischernoff">GitHub</a></td>
     <td><a href="http://instagram.com/burnedpixl">Instagram</a></td>
     <td><a href="http://open.spotify.com/user/burnedpixel">Spotify</a></td>
-    <td><a href="http://burned.yelp.com">Yelp</a></td>
   </tr>
 </table>
 
@@ -98,7 +100,7 @@
 
 <h4 id="basically-im-working-my-dream-job">Basically, I’m working my dream job.</h4>
 
-<p>This ultimately guided me towards a line of work that fits my interests and skill-set very closely: User Experience Design.</p>
+<p>This ultimately guided me towards a line of work that fits my interests and skill-set very closely: User Experience Design &amp; Development.</p>
 
 <p>As a UX designer, I enjoy distilling complex problems and scenarios into experiences that meet user needs and business goals. </p>
 
