@@ -2,13 +2,12 @@
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 612 613" enable-background="new 0 0 612 613" xml:space="preserve">
-<circle fill="#6E6E6E" cx="306" cy="306" r="306"/>
+	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<circle fill="#6E6E6E" cx="8" cy="7.987" r="7.987"/>
 <g>
 	<g>
-		<path fill="#FFFFFF" d="M363.356,292.442l113.235,135.104V196.525L363.356,292.442z M475.748,184.337H136.705l169.527,142.602
-			L475.748,184.337z M306.185,340.89l-49.637-40.758L148.525,427.664h315.414L355.905,298.871L306.185,340.89z M135.408,196.525
-			v231.021l113.247-135.104L135.408,196.525z"/>
+		<path fill="#FFFFFF" d="M9.497,7.633l2.956,3.526v-6.03L9.497,7.633z M12.431,4.812h-8.85l4.425,3.722L12.431,4.812z M8.005,8.897
+			L6.709,7.834l-2.82,3.328h8.233l-2.82-3.361L8.005,8.897z M3.547,5.129v6.03l2.956-3.526L3.547,5.129z"/>
 	</g>
 </g>
 </svg>
