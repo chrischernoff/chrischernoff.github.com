@@ -4,7 +4,7 @@
   <title><![CDATA[burnedpixel]]></title>
   <link href="http://www.burnedpixel.com/atom.xml" rel="self"/>
   <link href="http://www.burnedpixel.com/"/>
-  <updated>2014-08-30T18:20:51-07:00</updated>
+  <updated>2014-08-30T18:45:48-07:00</updated>
   <id>http://www.burnedpixel.com/</id>
   <author>
     <name><![CDATA[Chris Chernoff]]></name>
@@ -12,6 +12,474 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Beginner's Setup Guide for Ruby, Node.js, Git, Github, and other things on Mac OS X 10.9]]></title>
+    <link href="http://www.burnedpixel.com/blog/beginners-setup-guide-for-ruby-node-git-github-on-your-mac/"/>
+    <updated>2014-08-30T11:07:00-07:00</updated>
+    <id>http://www.burnedpixel.com/blog/beginners-setup-guide-for-ruby-node-git-github-on-your-mac</id>
+    <content type="html"><![CDATA[<p>Last year I wrote a <a href="http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/">post</a> that went through the process of setting up a Mac with a fresh version of Git and authenticating with Github. I formatted it in a way that made it easier for folks who were less familiar with the ins and outs of the terminal (and all of the snags you inevitably hit along the way) to follow along and get up and running in a pretty short amount of time.</p>
+
+<p>Much to my surprise, that guide has seen pretty steady traffic since I wrote it. Every so often folks will ping me saying they were able to hit the ground running without issue thanks to my guide, and I’ve found that really validating and rewarding.</p>
+
+<p>So I wanted to write an updated version of the guide that not only is bulletproof for OS X 10.9 Mavericks, but throws in how to setup a few common web development tools such as Ruby, rbenv, Node.js, npm, and Grunt. Once Yosemite is out, I’ll update again to make sure everything is solid for that as well.</p>
+
+<!--More-->
+
+<h2 id="who-am-i">Who am I?</h2>
+
+<p>I’m a designer/dev based in Los Angeles, but I also really enjoy helping folks become more productive and efficient. This often includes tipping people off to handy apps and utilities, but also branches out to things like helping people save money.</p>
+
+<p>You can read a more in depth version of why I wrote my first guide <a href="http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/#background">here</a>, but the gist of it is that setting up your computer for web development can be a pain. Rather than wasting 4+ hours Googling things, reading posts, and getting frustrated when things don’t go according to plan, I want able to follow one guide and be up and running quickly. So this is that guide.</p>
+
+<p>There are automated setup tools such as <a href="https://boxen.github.com/">Boxen</a> that I’d like to investigate for a future guide, but for now we’ll keep it “simple.”</p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>This tutorial assumes you’re using a Mac running at least OS X 10.9. If you are unsure of what OS you have, go up to the top left of your screen, click the Apple menu, and select “About This Mac.”</p>
+
+<p>You’ll also need to ensure that your user account on your computer has admin privileges and that you know your account’s password.</p>
+
+<h4 id="a-note-about-the-terminal">A note about the Terminal</h4>
+
+<p>The <a href="http://en.wikipedia.org/wiki/Terminal_(OS_X)">Terminal</a> application comes pre-installed with OS X, and can be found in the Applications -&gt; Utilities folder.</p>
+
+<p>The terminal has a variety of uses, and in the cases of Ruby and Node can actually spin up web servers for you while you’re developing locally on your computer. For the purposes of this tutorial we’ll be using a syntax/command set called <a href="http://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash</a> to get things. Terminal is already configured to use this syntax.</p>
+
+<p>When you enter a command and press return/enter, often times the terminal will execute it and complete the task immediately. </p>
+
+<p>Sometimes it will log information in the window while it’s working, but other times you might feel like it isn’t doing anything at all. </p>
+
+<p>Some of the commands later in this tutorial can take a few seconds (or minutes) to complete, so don’t type anything into the terminal window or close the terminal window until you see it present you with a fresh prompt ending in <code>yourusername$</code>.</p>
+
+<p>For the purposes of this tutorial, commands that I intend for you to type will be preceded with <code>$</code>, but don’t include that symbol when you enter the commands. It’s purely meant as an indicator and reference to the <code>$</code> that appears in your terminal prompt.</p>
+
+<p>Lines that contain comments/notes from me to will be preceded with <code>#</code> and will be dimmed. Don’t type these either.</p>
+
+<p>Make sure to press return after typing a command before you enter the next one.</p>
+
+<h2 id="install-xcode--the-os-x-command-line-tools">Install Xcode &amp; the OS X Command Line Tools</h2>
+
+<p><a href="https://developer.apple.com/xcode/">Xcode</a> is a developer suite Apple offers for free from the Mac App Store. It comes with all the tools you need to build Mac and iOS apps, but also includes basic compilers and libraries needed to install web development tools. You can elect to try installing just the Command Line Tools and forgoing the installation of Xcode itself, but this guide assumes you’re installing both.</p>
+
+<p>Let’s get started by going to the Mac App Store and installing Xcode (as of writing the current version is 5.1.1). The download is currently a little over 2GB, so it may take a few minutes to complete.</p>
+
+<p>Once it’s downloaded go ahead and open up Terminal.app (in /Applications/Utitlies or search for it in spotlight). Let’s install the Command Line Tools</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># Type this and press the return key. </span>
+</span><span class="line"><span class="c"># Note that there are two dashes, not one.</span>
+</span><span class="line"><span class="nv">$ </span>xcode-select --install
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>A prompt will appear asking you if you want to install the Command Line Tools, click Install. This may take a couple minutes.</p>
+
+<p>[show image]</p>
+
+<p>Once the tools are successfully installed, we’ll need to accept the Xcode license. This is a bit silly, as we’re doing it by checking the version of gcc so bear with me.</p>
+
+<p>Executing this will ask you for your account password, you won’t see any characters as you type. Enter your password and press return. If you make a mistake, just press return and it will let you attempt to enter your password again.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>sudo gcc --version
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Press return to view the agreement. Once opened, the agreement is long, so press space until you reach the bottom and are prompted with:</p>
+
+<blockquote>
+  <p>By typing ‘agree’ you are agreeing to the terms of the software license agreements. Type ‘print’ to print them or anything else to cancel, [agree, print, cancel]</p>
+</blockquote>
+
+<p>Type agree and press return. You’ll be returned to your terminal session and should see something like:</p>
+
+<blockquote>
+  <p>Configured with: –prefix=/Applications/Xcode.app/Contents/Developer/usr –with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix</p>
+</blockquote>
+
+<p>Now we’re getting somewhere!</p>
+
+<h2 id="a-idinstall-homebrewainstall-homebrew"><a id="install-homebrew"></a>Install Homebrew</h2>
+
+<p>Homebrew is an awesome tool that makes installing packages, libraries, utitlies, etc a breeze. It is what we will use to install subsequent items in this guide such as Ruby, Node, and Git. Trust me, it is way easier and more convenient to install (and upgrade in the futrue) all of the aforementioned tools with Homebrew than by hand.</p>
+
+<p>Run the following command in the terminal:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>ruby -e <span class="s2">&quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;</span>
+</span><span class="line"><span class="c"># Press return</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Once complete, you should see:</p>
+
+<blockquote>
+  <p>==&gt; Installation successful!
+==&gt; Next steps
+Run <code>brew doctor</code> before you install anything
+Run <code>brew help</code> to get started</p>
+</blockquote>
+
+<p>So let’s follow its advice and run:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>brew doctor
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>If all went well during installation, brew doctor should indicate good things:</p>
+
+<blockquote>
+  <p>Your system is ready to brew.</p>
+</blockquote>
+
+<p>If so, awesome. If not, there is a wide range of errors depending on if you’ve tried installing Xcode, the Command Line Tools, and/or Homebrew before. Feel free to reach out to me for help, and Moncef Belyamani has a <a href="http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#troubleshoot-homebrew">helpful collection</a> of common Homebrew issues that might help.</p>
+
+<p>One tip if you’ve attempted to install Homebrew in the past but got stuck is to completely remove your old installation:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># Only run if you&#39;ve attempted to install Homebrew </span>
+</span><span class="line"><span class="c"># before and got stuck. This will ask you for your </span>
+</span><span class="line"><span class="c"># user password. Type it and press return</span>
+</span><span class="line"><span class="nv">$ </span>sudo rm -rf /usr/local/Cellar /usr/local/.git <span class="o">&amp;&amp;</span> brew cleanup
+</span><span class="line"><span class="nv">$ </span><span class="nb">cd</span> /usr/local
+</span><span class="line"><span class="nv">$ </span>sudo mv -v Library Library.old
+</span><span class="line"><span class="nv">$ </span><span class="nb">cd</span> ~
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Now try going through the <a href="#install-homebrew">Homebrew install</a> steps again.</p>
+
+<h2 id="updating-your-path-environment-variable">Updating your path environment variable</h2>
+
+<p>Another thing we should change before we go installing more tools is your unix <code>$PATH</code> environment variable. This is one of the common sources of issues when new users try to install command line tools/packages (I know it was/is for me). Think of the path as the series of folders in which your computer will look for a particular program or package. Consider the following example:</p>
+
+<ol>
+  <li>You have the script jumpingjacks 1.0 installed in folder A.</li>
+  <li>You install jumpingjacks 2.0, but when you install scripts they end up in folder B.</li>
+  <li>Your <code>$PATH</code> is only set to look in folder A.</li>
+  <li>When you run “jumpingjacks”, your computer will open jumpingjacks 1.0.</li>
+  <li>You update your <code>$PATH</code> to look in folder A, then folder B.</li>
+  <li>When you run “jumpingjacks”, your computer will <em>still</em> open jumpingjacks 1.0, because that is the first version that it found when it looked through the folders you asked it to.</li>
+  <li>You update your <code>$PATH</code> to look in folder B first, <em>then</em> folder A.</li>
+  <li>Now when you run “jumpingjacks”, your computer will open jumpingjacks 2.0.</li>
+</ol>
+
+<p>Hope this silly example makes things a little more clear. Where it applies to us is we want OS X to look in the folder where Homebrew will be installing many of the packages we will ask it to. This folder is <code>/usr/local/bin/</code>. By default, your computer will look in <code>/usr/bin</code> first instead. You can check your <code>$PATH</code> by doing the following:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$PATH</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>It will most likely come back with something like this:</p>
+
+<blockquote>
+  <p>/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin</p>
+</blockquote>
+
+<p><code>/usr/local/bin</code> is all the way at the end! To change this, we’ll update a configuration file called your <code>bash_profile</code>. This file will contain any customizations you want to make to your Bash environment. Run the following to update your <code>bash_profile</code>:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span><span class="nb">echo export </span><span class="nv">PATH</span><span class="o">=</span><span class="s1">&#39;/usr/local/bin:$PATH&#39;</span> &gt;&gt; ~/.bash_profile
+</span><span class="line"><span class="nv">$ </span><span class="nb">source</span> ~/.bash_profile
+</span><span class="line"><span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$PATH</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>After running the last command, you should see the following:</p>
+
+<blockquote>
+  <p>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin</p>
+</blockquote>
+
+<p>Notice how <code>/usr/local/bin</code> is at the beginning now? This means as we install things with Homebrew, your computer will see those versions first.</p>
+
+<h2 id="install-git">Install Git</h2>
+<p><img class="right" src="http://www.burnedpixel.com/uploads/2013/03/git.jpg" /></p>
+
+<p><em>“<a href="http://en.wikipedia.org/wiki/Git_(software)">Git</a> is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.”</em></p>
+
+<p>We need to install Git onto your computer. It won’t have an icon in your dock, but it can be used by the Terminal.</p>
+
+<p>The OS X Command Line Tools come with a version of Git, but we want Homebrew to manage our installation of Git so we can use a newer version and have an easier time staying up to date in the future. Let’s install the latest version of Git using Homebrew:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>brew install git
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>After it’s done installing, let’s double check that your computer is referencing the latest version we just installed:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>which git
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>You should see <code>/usr/local/bin/git</code> returned to you. If you see <code>/usr/bin/git</code> then you may have issues with your <code>$PATH</code>. Again, please feel free to reach out, but a starting point may be to empty out any <code>$PATH</code> related statements in your <code>.bash_profile</code> <em>or</em> perhaps your <code>.bashrc</code> file.</p>
+
+<p>Assuming you see the correct git path, let’s move on!</p>
+
+<h2 id="a-idsetupgithubaget-a-github-account"><a id="setupgithub"></a>Get a Github account</h2>
+<p><img class="right" src="http://www.burnedpixel.com/uploads/2013/03/github.jpg" width="300" /> </p>
+
+<p>“<em><a href="http://en.wikipedia.org/wiki/GitHub">GitHub</a> is a web-based hosting service for software development projects that use the Git revision control system.</em>”</p>
+
+<p>Go to <a href="http://www.github.com">Github.com</a> and create a free account if you haven’t already. For the purposes of this guide a Free account is just fine.</p>
+
+<h2 id="a-idgitidentificationaconfiguring-git-identification"><a id="gitidentification"></a>Configuring Git identification</h2>
+
+<p>Once you have your Github account ready, let’s setup your local Git installation to correctly identify you and authenticate with Github.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># Set your username</span>
+</span><span class="line"><span class="nv">$ </span>git config --global user.name <span class="s2">&quot;Your Name Here&quot;</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Set your email address</span>
+</span><span class="line"><span class="nv">$ </span>git config --global user.email <span class="s2">&quot;your_name@domain.com&quot;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>Make sure the email address you enter is shown in the list in your <a href="https://github.com/settings/emails">Github Email Settings</a>, as this is how Github maps commits to Github users. If your desired email isn’t in that list, you can add it.</p>
+
+<p>Since we installed Git with Homebrew, a handy helper has been included along with Git that will remember your Github username and password so you don’t have to log in every time you connect to Github from the Terminal.</p>
+
+<p>To tell Git to use this helper, run this:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>git config --global credential.helper osxkeychain
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>You will now able to access Github repositories using the HTTPS method. There’s a very good chance that this is the only method you will need to access repositories, and you will only have to enter your credentials the first time you connect to Github.</p>
+
+<h4 id="a-idsshkeysassh-keys-optional-step"><a id="sshkeys"></a>SSH Keys (optional step)</h4>
+<p><em>“<a href="http://en.wikipedia.org/wiki/Secure_Shell#Definition">SSH</a> uses public-key cryptography to authenticate the remote computer and allow it to authenticate the user, if necessary. There are several ways to use SSH; one is to use automatically generated public-private key pairs to simply encrypt a network connection, and then use password authentication to log on.”</em></p>
+
+<p>If you have a specific reason that you need to access Github using SSH instead of the default HTTPS method, you can configure your computer to do so below. Otherwise, proceed to <a href="#installing-ruby">Installing Ruby</a>.</p>
+
+<p>An SSH key is an algorithmically created phrase that only your computer and the device you’re connecting to should know. If Github is aware of the key your computer is using, you won’t have to enter your Github username/password every time you connect using SSH. Note, if you use HTTPS to clone your repository, SSH will not come into play.</p>
+
+<h5 id="check-for-pre-existing-ssh-keys-on-your-computer">Check for pre-existing SSH keys on your computer</h5>
+<p>Let’s see if your computer has one or more keys already created. Another app or script you used may have done this.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># The below command will copy your key </span>
+</span><span class="line"><span class="c"># to your computer&#39;s clipboard.</span>
+</span><span class="line"><span class="nv">$ </span>pbcopy &lt; ~/.ssh/id_rsa.pub
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>If you get the response “No such file or directory”, skip to <a href="#generatenewkey">Generate a new SSH Key</a>.</p>
+
+<p>Otherwise, move on to the next step so we can let Github know to look for your existing key.</p>
+
+<h5 id="a-idadd-your-ssh-key-to-githubaadd-your-ssh-key-to-github"><a id="add-your-ssh-key-to-github"></a>Add your SSH key to Github</h5>
+<p>Now we need to let Github know the contents of your SSH key.</p>
+
+<ol>
+  <li>Visit your <a href="https://github.com/settings/ssh">account settings</a>.</li>
+  <li>Click <strong>Add SSH key</strong>.</li>
+  <li>Enter a descriptive title for the computer you’re currently on, e.g. “Work iMac” into the Title field.</li>
+  <li>Paste your key into the <strong>Key</strong> field (it has already been copied to your clipboard).</li>
+  <li>Click <strong>Add Key</strong>.</li>
+  <li>Enter your Github password.</li>
+</ol>
+
+<p>Now let’s test that it all worked.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"> <span class="c"># Attempt to connect to Github using your SSH key.</span>
+</span><span class="line"> <span class="c"># Don&#39;t change the address shown below</span>
+</span><span class="line"> <span class="nv">$ </span>ssh -T git@github.com
+</span><span class="line">
+</span><span class="line"> <span class="c"># You may see the following warning:</span>
+</span><span class="line"> The authenticity of host <span class="s1">&#39;github.com (207.97.227.239)&#39;</span>
+</span><span class="line"> cant be established.
+</span><span class="line"> RSA key fingerprint is ...
+</span><span class="line"> Are you sure you want to <span class="k">continue </span>connecting <span class="o">(</span>yes/no<span class="o">)</span>?
+</span><span class="line">
+</span><span class="line"> <span class="c"># Type yes and press return</span>
+</span><span class="line"> <span class="c"># You may have to enter your recently</span>
+</span><span class="line"> <span class="c"># selected passphrase.</span>
+</span><span class="line">
+</span><span class="line"> <span class="c"># You should then see:</span>
+</span><span class="line"> Hi username! You<span class="err">&#39;</span>ve successfully authenticated,
+</span><span class="line"> but GitHub does not provide shell access.
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>You’re good to go with Git &amp; Github, skip down to <a href="#installing-ruby">Installing Ruby</a> to continue.</p>
+
+<h5 id="a-idgeneratenewkeya-generate-a-new-ssh-key-if-you-didnt-already-have-one"><a id="generatenewkey"></a> Generate a new SSH key (if you didn’t already have one)</h5>
+<p>We’re going to create a new SSH key to use with Github.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># Ensure that you are in your ~/.ssh folder</span>
+</span><span class="line"><span class="nv">$ </span><span class="nb">cd</span> ~/.ssh
+</span><span class="line">
+</span><span class="line"><span class="c"># Create a new ssh key using the </span>
+</span><span class="line"><span class="c"># email address you used to log into Github.</span>
+</span><span class="line"><span class="nv">$ </span>ssh-keygen -t rsa -C <span class="s2">&quot;your_email@domain.com&quot;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>When it asks you to enter a file name in which to save the key, just press return/enter (leave the prompt blank).</p>
+
+<p>You will then be asked to enter a passphrase and confirm it. <strong>Don’t</strong> make this blank, but do make sure it’s a password you would remember if you had to recall it in the future.</p>
+
+<p>Press return after each time you’ve entered your selected passphrase. You won’t see the characters or bullets, the cursor will stay in the same spot as if you aren’t typing. </p>
+
+<p>If you make an error entering your password one of the times, just press return and it will prompt you to try again.</p>
+
+<p>Once you’ve successfully set your passphrase, the terminal will report that your key has been saved and will present you with some sweet ASCII art. Copy your key to your clipboard using the following command:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c"># The below command will copy </span>
+</span><span class="line"><span class="c"># your key to your computer&#39;s clipboard.</span>
+</span><span class="line"><span class="nv">$ </span>pbcopy &lt; ~/.ssh/id_rsa.pub
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Now that we’ve created your key, return to <a href="#add-your-ssh-key-to-github">Add your key to Github</a>.</p>
+
+<h2 id="a-idinstalling-rubyainstalling-ruby-with-rbenv"><a id="installing-ruby"></a>Installing Ruby with rbenv</h2>
+
+<p>A lot of nifty web apps and sites are created using Ruby (like this very blog!). While I’ve struggled in the past to figure out a sane way to keep Ruby running smoothly, rbenv makes things pretty straight forward. Your mac will already have a version of Ruby installed, but it is always ideal to be able to control exactly which version of Ruby you have installed along with the gems necessary for each of your projects.</p>
+
+<p>First let’s install rbenv and ruby-build:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>brew install rbenv ruby-build
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Once complete we’ll add this configuration to your <code>.bash_profile</code>:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span><span class="nb">echo eval</span> <span class="s2">&quot;$(rbenv init -)&quot;</span> &gt;&gt; ~/.bash_profile
+</span><span class="line"><span class="nv">$ </span><span class="nb">source</span> ~/.bash_profile
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>Test that rbenv is working by simply typing:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>If rbenv is correctly installed, you’ll see a list of commands that looks something like:</p>
+
+<blockquote>
+  <p>rbenv 0.4.0
+Usage: rbenv <code>&lt;command&gt;</code> <code>[&lt;args&gt;]</code>
+Some useful rbenv commands are:…</p>
+</blockquote>
+
+<p>Now it’s time to install a version of Ruby. Let’s see what versions are available:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv install -l
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>This list can be quite long, but if you scroll up a bit you should see a number of items that are just numbers (for example <code>2.1.2</code> or <code>2.0.0-p481</code>). Let’s install the latest stable version of Ruby, which as of writing is <code>2.1.2</code>. You can double-check what the latest official stable version is at the <a href="https://www.ruby-lang.org/en/downloads/">Ruby Lang</a> site.</p>
+
+<p>If there are newer stable versions, just replace <code>2.1.2</code>. with whatever that number is in the steps below:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv install 2.1.2
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>Once this completes, you can run <code>ruby --version</code> to see what version of Ruby your system has installed…</p>
+
+<p>You’ll probably notice that the version number returned isn’t the one we just installed (<code>2.1.2</code>)! That’s because we need to tell rbenv to set <code>2.1.2</code> as the default version for your computer:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv global 2.1.2
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Now run <code>ruby --version</code> one more time and you should see 2.1.2 returned as the version number:</p>
+
+<blockquote>
+  <p>ruby 2.1.2p95 (2014-05-08 revision 45877) [x86_64-darwin13.0]</p>
+</blockquote>
+
+<p>Awesomeness! Let’s move on to Node.</p>
+
+<h2 id="install-nodejs-and-npm">Install Node.js and npm</h2>
+
+<p>Besides being the new hotness for a wide range of web projects, Node and it’s handy package manager npm power quite a few other tools (like Grunt) that make web development and designing easier. Let’s go!</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>brew install node
+</span><span class="line"><span class="c"># npm is installed when node is installed, neat!</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Assuming all goes well, you are now able to install and run node based projects. To verify everything is as it should be, run:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>npm version
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>This should return something like the following:</p>
+
+<blockquote>
+  <p>{ http_parser: ‘1.0’,
+  node: ‘0.10.31’,
+  v8: ‘3.14.5.9’,
+  ares: ‘1.9.0-DEV’,
+  uv: ‘0.10.28’,
+  zlib: ‘1.2.3’,
+  modules: ‘11’,
+  openssl: ‘1.0.1i’,
+  npm: ‘2.0.0-beta.2’ }</p>
+</blockquote>
+
+<p>If so, you’re good to go with node and npm!</p>
+
+<h2 id="install-grunt">Install Grunt</h2>
+
+<p>Let’s test out the power of npm by installing Grunt. You’ll notice along the way that as Grunt is installed numerous packages (called “dependencies”) are installed as well. This is the flexibility of the <a href="http://en.wikipedia.org/wiki/Unix_philosophy">Unix Philosophy</a> that prefers building an application or tool upon numerous small and interchangeable parts. As one piece becomes updated or outdated, it can be easily switched in or out.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>npm install -g grunt-cli
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Afterwords, run <code>grunt</code> to verify it’s installed. If it is, it will complain that there is no Gruntfile, and that’s because we’re not working on a project.</p>
+
+<p>Grunt is ready.  </p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>That about covers the basics of installing and configuring Git, Github, Ruby, rbenv, Node.js, npm, and Grunt on your Mac. You should now be able to accomplish a wide variety of tasks and are in a great position to keep your system updated and easily customizable. Often times, projects you may find online only require a <code>brew install</code>, <code>git clone</code> and/or an <code>npm install</code> to get started! Never before has web development been so powerful, so open, and so easy to participate in.</p>
+
+<p>In future posts I hope to detail my use of such projects, along with the some of the customizations I’ve made my system to make me more productive during the day.</p>
+
+<p>Thanks for reading!</p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>If there are any steps/instructions I’ve written that have been outdated by newer information/technology, are simply wrong, could be explained better, or you’re just stoked to have made it through this process, please feel free to contact me on Twitter where I’m <a href="https://www.twitter.com/burnedpixel">@burnedpixel</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[With liberty and justice for all.]]></title>
