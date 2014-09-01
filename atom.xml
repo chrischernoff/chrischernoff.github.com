@@ -4,7 +4,7 @@
   <title><![CDATA[burnedpixel]]></title>
   <link href="http://www.burnedpixel.com/atom.xml" rel="self"/>
   <link href="http://www.burnedpixel.com/"/>
-  <updated>2014-09-01T10:24:38-07:00</updated>
+  <updated>2014-09-01T10:26:18-07:00</updated>
   <id>http://www.burnedpixel.com/</id>
   <author>
     <name><![CDATA[Chris Chernoff]]></name>
@@ -684,7 +684,7 @@ Some useful rbenv commands are:…</p>
     <link href="http://www.burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/"/>
     <updated>2013-03-19T22:26:00-07:00</updated>
     <id>http://www.burnedpixel.com/blog/setting-up-git-and-github-on-your-mac</id>
-    <content type="html"><![CDATA[<p><em><strong>There is an <a href="http://localhost:4000/blog/beginners-setup-guide-for-ruby-node-git-github-on-your-mac/">updated version</a> of this post for OS X 10.9. While the steps below should still work, I recommend checking out the new guide if you are running 10.9!</strong></em></p>
+    <content type="html"><![CDATA[<p><em><strong>There is an <a href="http://burnedpixel.com/blog/beginners-setup-guide-for-ruby-node-git-github-on-your-mac/">updated version</a> of this post for OS X 10.9. While the steps below should still work, I recommend checking out the new guide if you are running 10.9!</strong></em></p>
 
 <p>There are already plenty of guides that explain the particular steps of getting Git and Github going on your mac in detail. However, I had difficulty finding one that explained <em>every</em> step required <em>in order</em> with simple enough instructions for Terminal novices to follow along with autonomously.</p>
 
