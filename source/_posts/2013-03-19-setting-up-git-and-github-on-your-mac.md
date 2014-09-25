@@ -4,6 +4,8 @@ title: "Beginner's Setup Guide for Git & Github on Mac OS X"
 date: 2013-03-19 22:26
 banner: /uploads/2013/03/git_setup.jpg
 ---
+_**There is an [updated version](http://burnedpixel.com/blog/beginners-setup-guide-for-ruby-node-git-github-on-your-mac/) of this post for OS X 10.9. While the steps below should still work, I recommend checking out the new guide if you are running 10.9!**_
+
 There are already plenty of guides that explain the particular steps of getting Git and Github going on your mac in detail. However, I had difficulty finding one that explained _every_ step required _in order_ with simple enough instructions for Terminal novices to follow along with autonomously.
 
 So I decided to write one myself.
