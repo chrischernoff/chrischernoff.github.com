@@ -9,7 +9,7 @@ Design, assets, CSS, written content etc are copyright Chris Chernoff and _may n
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
 
-Check out [Octopress.org](http://octopress.org/docs) for guides and documentation.
+Check out [Octopress.org](http://octopress.org/docs) for guides and documentation. 
 
 
 
